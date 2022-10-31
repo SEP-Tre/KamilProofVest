@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Shared\Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0\Application.deps.json" />
+      <Content Include="bin\Debug\net6.0\Application.dll" />
+      <Content Include="bin\Debug\net6.0\Application.pdb" />
+      <Content Include="bin\Debug\net6.0\Shared.dll" />
+      <Content Include="bin\Debug\net6.0\Shared.pdb" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="bin\**" />
+    </ItemGroup>
+
+</Project>

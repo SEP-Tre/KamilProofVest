@@ -14,6 +14,9 @@ message FoodPostRequest
   string description =2;
   string daysLeftToEat=3;
   string creatorUserName=4;
+  string category =5;
+  string pictureUrl=6;
+
 }
 
 message FoodPostCreatedResponse

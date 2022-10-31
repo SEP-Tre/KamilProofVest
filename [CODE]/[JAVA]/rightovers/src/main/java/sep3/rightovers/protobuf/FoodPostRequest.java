@@ -20,6 +20,8 @@ private static final long serialVersionUID = 0L;
     description_ = "";
     daysLeftToEat_ = "";
     creatorUserName_ = "";
+    category_ = "";
+    pictureUrl_ = "";
   }
 
   @java.lang.Override
@@ -74,6 +76,18 @@ private static final long serialVersionUID = 0L;
             java.lang.String s = input.readStringRequireUtf8();
 
             creatorUserName_ = s;
+            break;
+          }
+          case 42: {
+            java.lang.String s = input.readStringRequireUtf8();
+
+            category_ = s;
+            break;
+          }
+          case 50: {
+            java.lang.String s = input.readStringRequireUtf8();
+
+            pictureUrl_ = s;
             break;
           }
           default: {
@@ -262,6 +276,82 @@ private static final long serialVersionUID = 0L;
     }
   }
 
+  public static final int CATEGORY_FIELD_NUMBER = 5;
+  private volatile java.lang.Object category_;
+  /**
+   * <code>string category = 5;</code>
+   * @return The category.
+   */
+  @java.lang.Override
+  public java.lang.String getCategory() {
+    java.lang.Object ref = category_;
+    if (ref instanceof java.lang.String) {
+      return (java.lang.String) ref;
+    } else {
+      com.google.protobuf.ByteString bs = 
+          (com.google.protobuf.ByteString) ref;
+      java.lang.String s = bs.toStringUtf8();
+      category_ = s;
+      return s;
+    }
+  }
+  /**
+   * <code>string category = 5;</code>
+   * @return The bytes for category.
+   */
+  @java.lang.Override
+  public com.google.protobuf.ByteString
+      getCategoryBytes() {
+    java.lang.Object ref = category_;
+    if (ref instanceof java.lang.String) {
+      com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString.copyFromUtf8(
+              (java.lang.String) ref);
+      category_ = b;
+      return b;
+    } else {
+      return (com.google.protobuf.ByteString) ref;
+    }
+  }
+
+  public static final int PICTUREURL_FIELD_NUMBER = 6;
+  private volatile java.lang.Object pictureUrl_;
+  /**
+   * <code>string pictureUrl = 6;</code>
+   * @return The pictureUrl.
+   */
+  @java.lang.Override
+  public java.lang.String getPictureUrl() {
+    java.lang.Object ref = pictureUrl_;
+    if (ref instanceof java.lang.String) {
+      return (java.lang.String) ref;
+    } else {
+      com.google.protobuf.ByteString bs = 
+          (com.google.protobuf.ByteString) ref;
+      java.lang.String s = bs.toStringUtf8();
+      pictureUrl_ = s;
+      return s;
+    }
+  }
+  /**
+   * <code>string pictureUrl = 6;</code>
+   * @return The bytes for pictureUrl.
+   */
+  @java.lang.Override
+  public com.google.protobuf.ByteString
+      getPictureUrlBytes() {
+    java.lang.Object ref = pictureUrl_;
+    if (ref instanceof java.lang.String) {
+      com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString.copyFromUtf8(
+              (java.lang.String) ref);
+      pictureUrl_ = b;
+      return b;
+    } else {
+      return (com.google.protobuf.ByteString) ref;
+    }
+  }
+
   private byte memoizedIsInitialized = -1;
   @java.lang.Override
   public final boolean isInitialized() {
@@ -288,6 +378,12 @@ private static final long serialVersionUID = 0L;
     if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(creatorUserName_)) {
       com.google.protobuf.GeneratedMessageV3.writeString(output, 4, creatorUserName_);
     }
+    if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(category_)) {
+      com.google.protobuf.GeneratedMessageV3.writeString(output, 5, category_);
+    }
+    if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(pictureUrl_)) {
+      com.google.protobuf.GeneratedMessageV3.writeString(output, 6, pictureUrl_);
+    }
     unknownFields.writeTo(output);
   }
 
@@ -308,6 +404,12 @@ private static final long serialVersionUID = 0L;
     }
     if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(creatorUserName_)) {
       size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, creatorUserName_);
+    }
+    if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(category_)) {
+      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, category_);
+    }
+    if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(pictureUrl_)) {
+      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, pictureUrl_);
     }
     size += unknownFields.getSerializedSize();
     memoizedSize = size;
@@ -332,6 +434,10 @@ private static final long serialVersionUID = 0L;
         .equals(other.getDaysLeftToEat())) return false;
     if (!getCreatorUserName()
         .equals(other.getCreatorUserName())) return false;
+    if (!getCategory()
+        .equals(other.getCategory())) return false;
+    if (!getPictureUrl()
+        .equals(other.getPictureUrl())) return false;
     if (!unknownFields.equals(other.unknownFields)) return false;
     return true;
   }
@@ -351,6 +457,10 @@ private static final long serialVersionUID = 0L;
     hash = (53 * hash) + getDaysLeftToEat().hashCode();
     hash = (37 * hash) + CREATORUSERNAME_FIELD_NUMBER;
     hash = (53 * hash) + getCreatorUserName().hashCode();
+    hash = (37 * hash) + CATEGORY_FIELD_NUMBER;
+    hash = (53 * hash) + getCategory().hashCode();
+    hash = (37 * hash) + PICTUREURL_FIELD_NUMBER;
+    hash = (53 * hash) + getPictureUrl().hashCode();
     hash = (29 * hash) + unknownFields.hashCode();
     memoizedHashCode = hash;
     return hash;
@@ -492,6 +602,10 @@ private static final long serialVersionUID = 0L;
 
       creatorUserName_ = "";
 
+      category_ = "";
+
+      pictureUrl_ = "";
+
       return this;
     }
 
@@ -522,6 +636,8 @@ private static final long serialVersionUID = 0L;
       result.description_ = description_;
       result.daysLeftToEat_ = daysLeftToEat_;
       result.creatorUserName_ = creatorUserName_;
+      result.category_ = category_;
+      result.pictureUrl_ = pictureUrl_;
       onBuilt();
       return result;
     }
@@ -584,6 +700,14 @@ private static final long serialVersionUID = 0L;
       }
       if (!other.getCreatorUserName().isEmpty()) {
         creatorUserName_ = other.creatorUserName_;
+        onChanged();
+      }
+      if (!other.getCategory().isEmpty()) {
+        category_ = other.category_;
+        onChanged();
+      }
+      if (!other.getPictureUrl().isEmpty()) {
+        pictureUrl_ = other.pictureUrl_;
         onChanged();
       }
       this.mergeUnknownFields(other.unknownFields);
@@ -915,6 +1039,158 @@ private static final long serialVersionUID = 0L;
   checkByteStringIsUtf8(value);
       
       creatorUserName_ = value;
+      onChanged();
+      return this;
+    }
+
+    private java.lang.Object category_ = "";
+    /**
+     * <code>string category = 5;</code>
+     * @return The category.
+     */
+    public java.lang.String getCategory() {
+      java.lang.Object ref = category_;
+      if (!(ref instanceof java.lang.String)) {
+        com.google.protobuf.ByteString bs =
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        category_ = s;
+        return s;
+      } else {
+        return (java.lang.String) ref;
+      }
+    }
+    /**
+     * <code>string category = 5;</code>
+     * @return The bytes for category.
+     */
+    public com.google.protobuf.ByteString
+        getCategoryBytes() {
+      java.lang.Object ref = category_;
+      if (ref instanceof String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        category_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+    /**
+     * <code>string category = 5;</code>
+     * @param value The category to set.
+     * @return This builder for chaining.
+     */
+    public Builder setCategory(
+        java.lang.String value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  
+      category_ = value;
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>string category = 5;</code>
+     * @return This builder for chaining.
+     */
+    public Builder clearCategory() {
+      
+      category_ = getDefaultInstance().getCategory();
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>string category = 5;</code>
+     * @param value The bytes for category to set.
+     * @return This builder for chaining.
+     */
+    public Builder setCategoryBytes(
+        com.google.protobuf.ByteString value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+      
+      category_ = value;
+      onChanged();
+      return this;
+    }
+
+    private java.lang.Object pictureUrl_ = "";
+    /**
+     * <code>string pictureUrl = 6;</code>
+     * @return The pictureUrl.
+     */
+    public java.lang.String getPictureUrl() {
+      java.lang.Object ref = pictureUrl_;
+      if (!(ref instanceof java.lang.String)) {
+        com.google.protobuf.ByteString bs =
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        pictureUrl_ = s;
+        return s;
+      } else {
+        return (java.lang.String) ref;
+      }
+    }
+    /**
+     * <code>string pictureUrl = 6;</code>
+     * @return The bytes for pictureUrl.
+     */
+    public com.google.protobuf.ByteString
+        getPictureUrlBytes() {
+      java.lang.Object ref = pictureUrl_;
+      if (ref instanceof String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        pictureUrl_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+    /**
+     * <code>string pictureUrl = 6;</code>
+     * @param value The pictureUrl to set.
+     * @return This builder for chaining.
+     */
+    public Builder setPictureUrl(
+        java.lang.String value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  
+      pictureUrl_ = value;
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>string pictureUrl = 6;</code>
+     * @return This builder for chaining.
+     */
+    public Builder clearPictureUrl() {
+      
+      pictureUrl_ = getDefaultInstance().getPictureUrl();
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>string pictureUrl = 6;</code>
+     * @param value The bytes for pictureUrl to set.
+     * @return This builder for chaining.
+     */
+    public Builder setPictureUrlBytes(
+        com.google.protobuf.ByteString value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+      
+      pictureUrl_ = value;
       onChanged();
       return this;
     }

@@ -4,8 +4,13 @@ SET SCHEMA 'rightovers';
 
 CREATE TABLE IF NOT EXISTS food_post
 (
-    food_post_id SERIAL PRIMARY KEY,
+    post_id SERIAL PRIMARY KEY,
     title varchar,
+    post_category varchar,
     description varchar,
-    days_left_to_eat varchar
+    picture_url varchar,
+    days_until_expired varchar,
+    post_state varchar,
+    post_date date,
+    post_timestamp  timestamp
 );

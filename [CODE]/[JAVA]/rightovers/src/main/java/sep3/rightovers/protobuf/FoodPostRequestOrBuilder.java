@@ -54,4 +54,28 @@ public interface FoodPostRequestOrBuilder extends
    */
   com.google.protobuf.ByteString
       getCreatorUserNameBytes();
+
+  /**
+   * <code>string category = 5;</code>
+   * @return The category.
+   */
+  java.lang.String getCategory();
+  /**
+   * <code>string category = 5;</code>
+   * @return The bytes for category.
+   */
+  com.google.protobuf.ByteString
+      getCategoryBytes();
+
+  /**
+   * <code>string pictureUrl = 6;</code>
+   * @return The pictureUrl.
+   */
+  java.lang.String getPictureUrl();
+  /**
+   * <code>string pictureUrl = 6;</code>
+   * @return The bytes for pictureUrl.
+   */
+  com.google.protobuf.ByteString
+      getPictureUrlBytes();
 }

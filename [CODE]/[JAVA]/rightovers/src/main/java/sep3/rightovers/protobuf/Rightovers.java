@@ -33,15 +33,16 @@ public final class Rightovers {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020Rightovers.proto\022\017rightovers.grpc\"e\n\017F" +
-      "oodPostRequest\022\r\n\005title\030\001 \001(\t\022\023\n\013descrip" +
-      "tion\030\002 \001(\t\022\025\n\rdaysLeftToEat\030\003 \001(\t\022\027\n\017cre" +
-      "atorUserName\030\004 \001(\t\":\n\027FoodPostCreatedRes" +
-      "ponse\022\017\n\007created\030\001 \001(\010\022\016\n\006idInDB\030\002 \001(\0052o" +
-      "\n\021RightOversService\022Z\n\014saveFoodPost\022 .ri" +
-      "ghtovers.grpc.FoodPostRequest\032(.rightove" +
-      "rs.grpc.FoodPostCreatedResponseB\034\n\030sep3." +
-      "rightovers.protobufP\001b\006proto3"
+      "\n\020Rightovers.proto\022\017rightovers.grpc\"\213\001\n\017" +
+      "FoodPostRequest\022\r\n\005title\030\001 \001(\t\022\023\n\013descri" +
+      "ption\030\002 \001(\t\022\025\n\rdaysLeftToEat\030\003 \001(\t\022\027\n\017cr" +
+      "eatorUserName\030\004 \001(\t\022\020\n\010category\030\005 \001(\t\022\022\n" +
+      "\npictureUrl\030\006 \001(\t\":\n\027FoodPostCreatedResp" +
+      "onse\022\017\n\007created\030\001 \001(\010\022\016\n\006idInDB\030\002 \001(\0052o\n" +
+      "\021RightOversService\022Z\n\014saveFoodPost\022 .rig" +
+      "htovers.grpc.FoodPostRequest\032(.rightover" +
+      "s.grpc.FoodPostCreatedResponseB\034\n\030sep3.r" +
+      "ightovers.protobufP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -52,7 +53,7 @@ public final class Rightovers {
     internal_static_rightovers_grpc_FoodPostRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_rightovers_grpc_FoodPostRequest_descriptor,
-        new java.lang.String[] { "Title", "Description", "DaysLeftToEat", "CreatorUserName", });
+        new java.lang.String[] { "Title", "Description", "DaysLeftToEat", "CreatorUserName", "Category", "PictureUrl", });
     internal_static_rightovers_grpc_FoodPostCreatedResponse_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_rightovers_grpc_FoodPostCreatedResponse_fieldAccessorTable = new
