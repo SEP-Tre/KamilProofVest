@@ -1,0 +1,23 @@
+syntax="proto3";
+option java_multiple_files=true;
+option java_package="sep3.rightovers.protobuf";
+package rightovers.grpc;
+
+service RightOversService
+{
+rpc saveFoodPost(FoodPostRequest) returns (FoodPostCreatedResponse);
+}
+
+message FoodPostRequest
+{
+  string title = 1;
+  string description =2;
+  string daysLeftToEat=3;
+  string creatorUserName=4;
+}
+
+message FoodPostCreatedResponse
+{
+  bool created = 1;
+  int32 idInDB = 2;
+}
