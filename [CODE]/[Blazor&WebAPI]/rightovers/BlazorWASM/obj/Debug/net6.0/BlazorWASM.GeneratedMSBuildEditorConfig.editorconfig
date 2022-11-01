@@ -22,14 +22,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fisch/Documents/GitHub/KamilProofVest/\[CODE\]/\[Blazor&WebAPI\]/rightovers/BlazorWASM/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/fisch/Documents/GitHub/KamilProofVest/\[CODE\]/\[Blazor&WebAPI\]/rightovers/BlazorWASM/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/fisch/Documents/GitHub/KamilProofVest/\[CODE\]/\[Blazor&WebAPI\]/rightovers/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +33,14 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/fisch/Documents/GitHub/KamilProofVest/\[CODE\]/\[Blazor&WebAPI\]/rightovers/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fisch/Documents/GitHub/KamilProofVest/\[CODE\]/\[Blazor&WebAPI\]/rightovers/BlazorWASM/Pages/CreateFoodPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRm9vZFBvc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xauouoch9k
+
+[C:/Users/fisch/Documents/GitHub/KamilProofVest/\[CODE\]/\[Blazor&WebAPI\]/rightovers/BlazorWASM/Pages/UIComponents/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-sp2tgkowl2
 
 [C:/Users/fisch/Documents/GitHub/KamilProofVest/\[CODE\]/\[Blazor&WebAPI\]/rightovers/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

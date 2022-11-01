@@ -1,6 +1,130 @@
 ﻿@page "/CreateFoodPost"
-<h3>CreateFoodPost</h3>
+@using global::Shared.Dtos
+@using HttpClients.ClientInterfaces
+@using BlazorWASM.Pages.UIComponents
+@inject NavigationManager navMgr
+@inject IFoodPostWebService foodPostWebService;
+
+<div class="card">
+    <h3>Create Food Post</h3>
+    <div class="form-group field">
+        <label>Title:</label>
+        <br/>
+        <input type="text" @bind="title" @bind:event="oninput"/>
+    </div>
+    <div class="form-group field">
+        <label>Description:</label>
+        <br/>
+        <input type="text" @bind="description" @bind:event="oninput"/>
+    </div>
+    <div class="form-group field">
+        <label>Category:</label>
+        <br/>
+        <input type="text" @bind="category" @bind:event="oninput"/>
+    </div>
+    <div class="form-group field">
+        <label>Days left to consume: </label>
+        <select @bind="daysLeftToEat" @bind:event="oninput">
+            @foreach (int day in days)
+            {
+                <option value="day">@day</option>
+            }
+        </select>
+
+    </div>
+    <div class="form-group field">
+        <label>Upload image:</label>
+        <br/>
+        <InputFile></InputFile>
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
+    </div>
+    <div class="button-row">
+        <button @onclick="CreateAsync" class="acceptbtn">Create</button>
+    </div>
+    <Modal ShowModal="showModal">
+        <p>@createdDtoString</p>
+        <button @onclick="@Proceed">Wonderful</button>
+    </Modal>
+</div>
 
 @code {
+    private string title;
+    private string description;
+    private string daysLeftToEat;
+    private string category;
+    private string pictureUrl;
+    private List<int> days;
+    //private Image image;
+    private string color = "red";
+    private bool showModal;
+    private string createdDtoString;
+
+    private string resultMsg;
+
+    protected override void OnInitialized()
+    {
+        try
+        {
+            days = new List<int>();
+            days.Add(1);
+            days.Add(2);
+            days.Add(3);
+            days.Add(4);
+            days.Add(5);
+            days.Add(6);
+            days.Add(7);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
     
+    private async Task clear()
+    {
+        title = "";
+        category = "";
+        description = "";
+        pictureUrl = "";
+    }
+
+    private async Task CreateAsync()
+    {
+        try
+        {
+            if (title != "" && description != "" && daysLeftToEat != "" && category != "")
+            {
+                FoodPostCreationDto dto = new FoodPostCreationDto
+                {
+                    title = title,
+                    description = description,
+                    daysLeftToEat = daysLeftToEat,
+                    creatorUsername = "KAMILO",
+    //TODO with the authorization part of it
+                    category = category,
+                    pictureUrl = "pictureUrl"
+                };
+                FoodPostCreatedDto createdDto = await foodPostWebService.CreateAsync(dto);
+                await clear();
+                createdDtoString = createdDto.ToString();
+                showModal = true;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = "Exception";
+        }
+    }   
+
+    private void Proceed()
+    {
+        showModal = false;
+        navMgr.NavigateTo("/");
+    }
+
 }

@@ -15,11 +15,14 @@ public class FoodPostHttpClient : IFoodPostWebService
     }
     public async Task<FoodPostCreatedDto> CreateAsync(FoodPostCreationDto dto)
     {
-        HttpResponseMessage response = await client.PostAsJsonAsync("/posts", dto);
+        Console.Write("Food Post client:");
+        Console.Write(dto);
+        
+        HttpResponseMessage response = await client.PostAsJsonAsync("/FoodPosts", dto);
         string result = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
-            throw new Exception(result);
+            throw new Exception("There was a problem in REST.");
         }
 
         FoodPostCreatedDto createdDto = 
@@ -27,6 +30,7 @@ public class FoodPostHttpClient : IFoodPostWebService
         {
             PropertyNameCaseInsensitive = true
         })!;
+        Console.Write(createdDto);
         return createdDto;
     }
 }

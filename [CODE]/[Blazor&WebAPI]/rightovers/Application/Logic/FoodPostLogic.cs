@@ -16,7 +16,7 @@ public class FoodPostLogic : IFoodPostLogic
     public async Task<FoodPostCreatedDto> CreateAsync(FoodPostCreationDto dto)
     {
         FoodPostCreatedDto createdDto = await foodPostDaoService.CreateAsync(dto);
-        Console.Write(createdDto.ToString());
+        Console.WriteLine(createdDto.ToString());
         return createdDto;
     }
 }
