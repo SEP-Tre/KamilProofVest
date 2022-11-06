@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_food_post_created_dto" kind="class" language="C#" prot="public">
+    <compoundname>FoodPostCreatedDto</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_food_post_created_dto_1ae7a775820055320addc50f38d7c26cb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool FoodPostCreatedDto.created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <qualifiedname>FoodPostCreatedDto.created</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" line="5" column="17" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_food_post_created_dto_1ae6784b126ea07d94cb5819ce495f2309" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int FoodPostCreatedDto.idInDB</definition>
+        <argsstring></argsstring>
+        <name>idInDB</name>
+        <qualifiedname>FoodPostCreatedDto.idInDB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" line="6" column="16" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_food_post_created_dto_1af648bc79586e6acf0f2c3e4dc68d45a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string FoodPostCreatedDto.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>FoodPostCreatedDto.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" line="7" column="28" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" line="3" column="7" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreatedDto.cs" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_food_post_created_dto_1ae7a775820055320addc50f38d7c26cb5" prot="public" virt="non-virtual"><scope>FoodPostCreatedDto</scope><name>created</name></member>
+      <member refid="class_food_post_created_dto_1ae6784b126ea07d94cb5819ce495f2309" prot="public" virt="non-virtual"><scope>FoodPostCreatedDto</scope><name>idInDB</name></member>
+      <member refid="class_food_post_created_dto_1af648bc79586e6acf0f2c3e4dc68d45a5" prot="public" virt="non-virtual"><scope>FoodPostCreatedDto</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_e0c0afd10b8ccd7fb49a504a5e2f963e" kind="dir">
+    <compoundname>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application</compoundname>
+    <innerdir refid="dir_e521fb930b40bef39c6e68ec390bf70b">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/DAOInterfaces</innerdir>
+    <innerdir refid="dir_2a52fa63a5b4334e8588c0c3f249171b">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic</innerdir>
+    <innerdir refid="dir_15aa16b236ca380f829a6e905d50c29b">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/LogicInterfaces</innerdir>
+    <innerdir refid="dir_733e5d0f369cc8d6c31a075e92614bbd">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/"/>
+  </compounddef>
+</doxygen>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fisch\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj": {}
+    "C:\\Users\\thanks\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fisch\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj": {
+    "C:\\Users\\thanks\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fisch\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\thanks\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\fisch\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\fisch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fisch\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\thanks\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\thanks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thanks\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fisch\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\thanks\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

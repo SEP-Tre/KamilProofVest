@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_098222e0e1f4d12189477c846523c409" kind="dir">
+    <compoundname>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient</compoundname>
+    <innerdir refid="dir_3e4ecb56aadafdd65545826477a42bf2">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices</innerdir>
+    <innerdir refid="dir_14305ca0ba5fdbd2b1aad9ea168865ec">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj</innerdir>
+    <innerfile refid="_grpc_client_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/"/>
+  </compounddef>
+</doxygen>

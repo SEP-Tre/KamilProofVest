@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespacegrpc" kind="namespace" language="C#">
+    <compoundname>grpc</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="8" column="11"/>
+  </compounddef>
+</doxygen>

@@ -49,6 +49,10 @@ namespace GrpcClient {
     static readonly grpc::Marshaller<global::GrpcClient.FoodPostRequest> __Marshaller_rightovers_grpc_FoodPostRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcClient.FoodPostRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcClient.FoodPostCreatedResponse> __Marshaller_rightovers_grpc_FoodPostCreatedResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcClient.FoodPostCreatedResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::GrpcClient.GetAllRequest> __Marshaller_rightovers_grpc_GetAllRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcClient.GetAllRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::GrpcClient.GetAllResponse> __Marshaller_rightovers_grpc_GetAllResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcClient.GetAllResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::GrpcClient.FoodPostRequest, global::GrpcClient.FoodPostCreatedResponse> __Method_saveFoodPost = new grpc::Method<global::GrpcClient.FoodPostRequest, global::GrpcClient.FoodPostCreatedResponse>(
@@ -57,6 +61,14 @@ namespace GrpcClient {
         "saveFoodPost",
         __Marshaller_rightovers_grpc_FoodPostRequest,
         __Marshaller_rightovers_grpc_FoodPostCreatedResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::GrpcClient.GetAllRequest, global::GrpcClient.GetAllResponse> __Method_getAllFoodPosts = new grpc::Method<global::GrpcClient.GetAllRequest, global::GrpcClient.GetAllResponse>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "getAllFoodPosts",
+        __Marshaller_rightovers_grpc_GetAllRequest,
+        __Marshaller_rightovers_grpc_GetAllResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -110,6 +122,16 @@ namespace GrpcClient {
       public virtual grpc::AsyncUnaryCall<global::GrpcClient.FoodPostCreatedResponse> saveFoodPostAsync(global::GrpcClient.FoodPostRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_saveFoodPost, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncServerStreamingCall<global::GrpcClient.GetAllResponse> getAllFoodPosts(global::GrpcClient.GetAllRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return getAllFoodPosts(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncServerStreamingCall<global::GrpcClient.GetAllResponse> getAllFoodPosts(global::GrpcClient.GetAllRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncServerStreamingCall(__Method_getAllFoodPosts, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_f79f066d1cff23512cc41c451528d0a7" kind="dir">
+    <compoundname>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers</compoundname>
+    <innerdir refid="dir_e0c0afd10b8ccd7fb49a504a5e2f963e">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application</innerdir>
+    <innerdir refid="dir_7dc7260a79c6806e49c3f8b22caa9de8">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM</innerdir>
+    <innerdir refid="dir_098222e0e1f4d12189477c846523c409">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient</innerdir>
+    <innerdir refid="dir_a34ba339c5c5e14ea8c11589de955aeb">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients</innerdir>
+    <innerdir refid="dir_aafca731e26ba9b8635290fdce667581">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared</innerdir>
+    <innerdir refid="dir_06f07b7458bdaa2026a9cfb6833e20de">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests</innerdir>
+    <innerdir refid="dir_69c9258029edcf8fb48fae5bd239de61">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/"/>
+  </compounddef>
+</doxygen>

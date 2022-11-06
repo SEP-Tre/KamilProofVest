@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_i_food_post_web_service" kind="interface" language="C#" prot="public">
+    <compoundname>IFoodPostWebService</compoundname>
+    <derivedcompoundref refid="class_food_post_http_client" prot="public" virt="non-virtual">FoodPostHttpClient</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_food_post_web_service_1aef77f4c00a00fe0ed0ee5cca558e8dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_food_post_created_dto" kindref="compound">FoodPostCreatedDto</ref> &gt;</type>
+        <definition>Task&lt; FoodPostCreatedDto &gt; IFoodPostWebService.CreateAsync</definition>
+        <argsstring>(FoodPostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>IFoodPostWebService.CreateAsync</qualifiedname>
+        <reimplementedby refid="class_food_post_http_client_1adc5051e9a43b3f172ee88bfd3a316b9d">CreateAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/ClientInterfaces/IFoodPostWebService.cs" line="7" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FoodPostHttpClient</label>
+        <link refid="class_food_post_http_client"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IFoodPostWebService</label>
+        <link refid="interface_i_food_post_web_service"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/ClientInterfaces/IFoodPostWebService.cs" line="5" column="18" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/ClientInterfaces/IFoodPostWebService.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interface_i_food_post_web_service_1aef77f4c00a00fe0ed0ee5cca558e8dc2" prot="public" virt="non-virtual"><scope>IFoodPostWebService</scope><name>CreateAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

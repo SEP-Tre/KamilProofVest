@@ -29,4 +29,21 @@ public class FoodPostsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<OverSimpleFoodPostDto>>> GetAsync()
+    {
+        try
+        {
+            var posts = await foodPostLogic.GetAsync();
+
+            return Ok(posts);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+
+            return StatusCode(500, e.Message);
+        }
+    }
 }

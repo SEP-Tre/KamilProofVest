@@ -26,6 +26,13 @@ public class FoodPost {
     public FoodPost() {
     }
 
+    // For use in the proof of concept for getting all food posts
+    public FoodPost(String title, String category) {
+        this.title = title;
+        this.postCategory = category;
+        // Default values are fine... for now
+    }
+
     public FoodPost(String title, String category, String description, String picture_url, String daysUntilExpired) {
         this.title = title;
         this.postCategory = category;

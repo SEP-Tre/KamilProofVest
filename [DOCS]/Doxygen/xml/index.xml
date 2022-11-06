@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.5" xml:lang="en-US">
+  <compound refid="class_grpc_client_1_1_right_overs_service_1_1_____helper___message_cache" kind="class"><name>GrpcClient::RightOversService::__Helper_MessageCache</name>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_____helper___message_cache_1a8e0e4b590795f40f5246d1e8789360aa" kind="variable"><name>IsBufferMessage</name></member>
+  </compound>
+  <compound refid="class_http_clients_1_1_class1" kind="class"><name>HttpClients::Class1</name>
+  </compound>
+  <compound refid="class_food_post" kind="class"><name>FoodPost</name>
+  </compound>
+  <compound refid="class_food_post_created_dto" kind="class"><name>FoodPostCreatedDto</name>
+    <member refid="class_food_post_created_dto_1ae7a775820055320addc50f38d7c26cb5" kind="property"><name>created</name></member>
+    <member refid="class_food_post_created_dto_1ae6784b126ea07d94cb5819ce495f2309" kind="property"><name>idInDB</name></member>
+    <member refid="class_food_post_created_dto_1af648bc79586e6acf0f2c3e4dc68d45a5" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_grpc_client_1_1_food_post_created_response" kind="class"><name>GrpcClient::FoodPostCreatedResponse</name>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a989c5cfb10855086c381f0717c00ab95" kind="variable"><name>_parser</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a8de07f2f3bbab455a5fb5d0a9588a307" kind="variable"><name>_unknownFields</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a1f7030f4282fa871e767030fee9bcb1f" kind="variable"><name>created_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a0a864374c855f745903665f705530875" kind="variable"><name>idInDB_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1ab80bc76af94cc74224537912e14ca767" kind="property"><name>Parser</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1aa2b8e1e08b9a1d4e1c4cf5a4d3be6e4b" kind="property"><name>Descriptor</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1ac1dc8c0b8286bceea74a42b04a77179a" kind="property"><name>Descriptor</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a9beae04edca1718d5d0c767478b41bad" kind="property"><name>Created</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a4cf5d38755d2a4fd864b47d5981e5f1d" kind="property"><name>IdInDB</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1aa1bbe969ff3943f3e93a13e84d8f56c8" kind="variable"><name>CreatedFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a35cceba05bf38894847d4bbf72942c76" kind="variable"><name>IdInDBFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a158870ac78952b498391c701123ee218" kind="function"><name>FoodPostCreatedResponse</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a313703b9d756ae6c452582aa3405d729" kind="function"><name>FoodPostCreatedResponse</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1ac2125b3445cc99129db1f814e033ba99" kind="function"><name>Clone</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a0613dd48385d429ab1ad81f2fc54f501" kind="function"><name>Equals</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a9ab6e000e90197d79465cac0eb60ec97" kind="function"><name>Equals</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a2ba915cfb46d336b1c8f825d83513e24" kind="function"><name>GetHashCode</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a079259ff8baaa3d6c312f45475a47a3d" kind="function"><name>ToString</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a7d2280b20987308361bab392c527ecc8" kind="function"><name>WriteTo</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1aa5ac8e03a343749b1d30366d46685c70" kind="function"><name>CalculateSize</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a430ceb3c0b76893f7568eb727adcdcf5" kind="function"><name>MergeFrom</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a0e70e7ae63043e99c3a07fdc70e48719" kind="function"><name>MergeFrom</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a52db07a29ecc55937069c80d769f98c5" kind="function"><name>OnConstruction</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1a371dc57355a727a1cfd5b81ad019237c" kind="function"><name>InternalWriteTo</name></member>
+    <member refid="class_grpc_client_1_1_food_post_created_response_1ab0be283b8e11325a814942dfdd98775f" kind="function"><name>InternalMergeFrom</name></member>
+  </compound>
+  <compound refid="class_food_post_creation_dto" kind="class"><name>FoodPostCreationDto</name>
+    <member refid="class_food_post_creation_dto_1adce23a94caf560977ef46ab9f5c6846e" kind="property"><name>title</name></member>
+    <member refid="class_food_post_creation_dto_1ad517b4eaec5bfeed34599779dcf7251a" kind="property"><name>description</name></member>
+    <member refid="class_food_post_creation_dto_1a4267f03de0760d182903bb52a9c630b3" kind="property"><name>daysLeftToEat</name></member>
+    <member refid="class_food_post_creation_dto_1a453ba227231d26544d9f6f87ee044d98" kind="property"><name>creatorUsername</name></member>
+    <member refid="class_food_post_creation_dto_1ae215ecc1906ac6a351ac0c0560abf504" kind="property"><name>category</name></member>
+    <member refid="class_food_post_creation_dto_1a1427881706e505770b6409058dbea24c" kind="property"><name>pictureUrl</name></member>
+    <member refid="class_food_post_creation_dto_1a79edc4813ab31fdd6d3f79782f6173db" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_food_post_http_client" kind="class"><name>FoodPostHttpClient</name>
+    <member refid="class_food_post_http_client_1a1d2271099f7ea93ebeac0b1cc97057da" kind="variable"><name>client</name></member>
+    <member refid="class_food_post_http_client_1a40829ed5cbcef8181f7b32a5c4c5058e" kind="function"><name>FoodPostHttpClient</name></member>
+    <member refid="class_food_post_http_client_1adc5051e9a43b3f172ee88bfd3a316b9d" kind="function"><name>CreateAsync</name></member>
+  </compound>
+  <compound refid="class_food_post_logic" kind="class"><name>FoodPostLogic</name>
+    <member refid="class_food_post_logic_1a3240b51f7bfacb52523001561296bd1a" kind="variable"><name>foodPostDaoService</name></member>
+    <member refid="class_food_post_logic_1a90c4c2fa288f2f48f0fec79cbd2c2600" kind="function"><name>FoodPostLogic</name></member>
+    <member refid="class_food_post_logic_1a7323d6af58d225d0f25c59d22df15da0" kind="function"><name>CreateAsync</name></member>
+  </compound>
+  <compound refid="class_grpc_client_1_1_food_post_request" kind="class"><name>GrpcClient::FoodPostRequest</name>
+    <member refid="class_grpc_client_1_1_food_post_request_1ab9a2f3274aa80f6bf4c7e3d9fc289363" kind="variable"><name>_parser</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a207cca0ba4337e55be3adcf36238cdd7" kind="variable"><name>_unknownFields</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1ad00e9bad9d78adf90cb2dce3727b37fa" kind="variable"><name>title_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a84bf3780e367df5d27d46f25b2621c3e" kind="variable"><name>description_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a6127ae9e91cd88802985511e8d19b87e" kind="variable"><name>daysLeftToEat_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a2934130c0b05d7d29c686b130695fe84" kind="variable"><name>creatorUserName_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a86c1c671859edfd065933d9c825c2a59" kind="variable"><name>category_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1ab95febdc35cf736796e6a369027b05e6" kind="variable"><name>pictureUrl_</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1aa6e970372979ca0053f4a57af1419402" kind="property"><name>Parser</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1ab63f569dc1e9859bb36f50092c3bd853" kind="property"><name>Descriptor</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a5bb5b9c63532588bd5e2b95b3a84815d" kind="property"><name>Descriptor</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a7c8579047cad2f971a023c19cc092025" kind="property"><name>Title</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a09afa077a06ee2b843661633d039ccb7" kind="property"><name>Description</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a125fceaab04c770eb98f313856c8ba03" kind="property"><name>DaysLeftToEat</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a274e1888423cbdda05366e2757b13d76" kind="property"><name>CreatorUserName</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a8edf332224b2183f70d7f089eab3d0bc" kind="property"><name>Category</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1aa12e5c0cd86598b388b0ae402edfb030" kind="property"><name>PictureUrl</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1ace53c99654414c8157f983e66c015224" kind="variable"><name>TitleFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a21269225455dd0f60ba59eb4a33cedda" kind="variable"><name>DescriptionFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a28cb04b100d1521e24dd07649f76b917" kind="variable"><name>DaysLeftToEatFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a2602bdd4a5fa421adf6c3642b2a4a740" kind="variable"><name>CreatorUserNameFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a211356dbb8619cd1aa7ff8e560fd31c5" kind="variable"><name>CategoryFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a0ef445190f9f76e49945b64768e82f8e" kind="variable"><name>PictureUrlFieldNumber</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a5da2396a95f132c40110cdacf1eec9ed" kind="function"><name>FoodPostRequest</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1ab401071b07bcc306a1e5fa8def512858" kind="function"><name>FoodPostRequest</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a2e35279b01d85a67d4e36ad77cfe9af5" kind="function"><name>Clone</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a89c21a41fab1ba5d702aba3056f0d367" kind="function"><name>Equals</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1aaf94ad727030052b40cb2e0727f1eb0c" kind="function"><name>Equals</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a1868b8fa709b667038c17b7485b69029" kind="function"><name>GetHashCode</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1aa651191c85ad4b48abc58f0eec9517b2" kind="function"><name>ToString</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1af7b2a9749f964c59495b8a5884cf07fd" kind="function"><name>WriteTo</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a45065b66a69fb684080603202b3bc826" kind="function"><name>CalculateSize</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a697c00644059e925394e8de15311ea16" kind="function"><name>MergeFrom</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1aa5f111614bbb87771d5e30e235fb423c" kind="function"><name>MergeFrom</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a3da0a0dfa33a9b2ac0ddec4f8e5515f3" kind="function"><name>OnConstruction</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a19bccaa30a4977df1e4c3885603eab7e" kind="function"><name>InternalWriteTo</name></member>
+    <member refid="class_grpc_client_1_1_food_post_request_1a439016e62c08b48d827e6c70862f80f6" kind="function"><name>InternalMergeFrom</name></member>
+  </compound>
+  <compound refid="class_food_posts_controller" kind="class"><name>FoodPostsController</name>
+    <member refid="class_food_posts_controller_1a48fb716dd96390aec4e68642614c8a1d" kind="variable"><name>foodPostLogic</name></member>
+    <member refid="class_food_posts_controller_1adb1f6297d0af728aa6fbd36120a08fac" kind="function"><name>FoodPostsController</name></member>
+    <member refid="class_food_posts_controller_1aa46e2e874cf7323e941bf300f5b616cc" kind="function"><name>CreateAsync</name></member>
+  </compound>
+  <compound refid="class_food_post_service" kind="class"><name>FoodPostService</name>
+    <member refid="class_food_post_service_1a099199b10004eb5043161bffaefa428b" kind="variable"><name>channel</name></member>
+    <member refid="class_food_post_service_1a3d4165e169ee4c15b7da6e55a5b213cd" kind="variable"><name>client</name></member>
+    <member refid="class_food_post_service_1a5b78bc936e057ff2b852b7ccfebc58d0" kind="function"><name>CreateAsync</name></member>
+  </compound>
+  <compound refid="interface_i_food_post_dao" kind="interface"><name>IFoodPostDao</name>
+    <member refid="interface_i_food_post_dao_1a60f467576ba3193fdc44552db720c022" kind="function"><name>CreateAsync</name></member>
+  </compound>
+  <compound refid="interface_i_food_post_logic" kind="interface"><name>IFoodPostLogic</name>
+    <member refid="interface_i_food_post_logic_1a643a617f35fa3bd38ac692cf446a1528" kind="function"><name>CreateAsync</name></member>
+  </compound>
+  <compound refid="interface_i_food_post_web_service" kind="interface"><name>IFoodPostWebService</name>
+    <member refid="interface_i_food_post_web_service_1aef77f4c00a00fe0ed0ee5cca558e8dc2" kind="function"><name>CreateAsync</name></member>
+  </compound>
+  <compound refid="class_grpc_client_1_1_program" kind="class"><name>GrpcClient::Program</name>
+    <member refid="class_grpc_client_1_1_program_1afd18bab76c00d34bb35565e9ea1478b0" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_grpc_client_1_1_rightovers_reflection" kind="class"><name>GrpcClient::RightoversReflection</name>
+    <member refid="class_grpc_client_1_1_rightovers_reflection_1a5296994029a02cd8d8c3c839cc9b6fcb" kind="property"><name>Descriptor</name></member>
+    <member refid="class_grpc_client_1_1_rightovers_reflection_1aeb76ab7d7ab2aeb2cf18358d06c8f7ba" kind="variable"><name>descriptor</name></member>
+    <member refid="class_grpc_client_1_1_rightovers_reflection_1ae32f6f022c14da56264e1eb7c91c6af8" kind="function"><name>RightoversReflection</name></member>
+  </compound>
+  <compound refid="class_grpc_client_1_1_right_overs_service" kind="class"><name>GrpcClient::RightOversService</name>
+    <member refid="class_grpc_client_1_1_right_overs_service_1a607f0429c13b99e0da78cfff9399e23a" kind="variable"><name>__ServiceName</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1a6b5eba3b3f08050cbe2590c191ee1cfd" kind="variable"><name>__Marshaller_rightovers_grpc_FoodPostRequest</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1a5ea33b134003afe91ebc0101ea05dd40" kind="variable"><name>__Marshaller_rightovers_grpc_FoodPostCreatedResponse</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1ac4c53265bf96a4938368c25a099d1a4c" kind="variable"><name>__Method_saveFoodPost</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1a19da3e462d562a9dc7986880bfc4f11a" kind="property"><name>Descriptor</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1ae71559181f2bcfaedb049df070185529" kind="function"><name>__Helper_SerializeMessage</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1a5d192a12bac4af6b7184f895604c5ae6" kind="function"><name>__Helper_DeserializeMessage&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client" kind="class"><name>GrpcClient::RightOversService::RightOversServiceClient</name>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a800494ed156e72ebca67b1293a7fb9e0" kind="function"><name>RightOversServiceClient</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1ae07585b6af481f0c2a80183edfea5853" kind="function"><name>RightOversServiceClient</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a44543cc9ad9e09825c849c1eac7a860b" kind="function"><name>saveFoodPost</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a5dd8688f7b4d4bd388c454e7d0c51a60" kind="function"><name>saveFoodPost</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1abd9b53340dfe3fdb2ee7d866468caf7d" kind="function"><name>saveFoodPostAsync</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1abc95acc474ea68daceb4c468ab037f85" kind="function"><name>saveFoodPostAsync</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a47142acfe247e900c2dfc5487400dc63" kind="function"><name>RightOversServiceClient</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a9147386c32563c3b1b9eedcf6f49d325" kind="function"><name>RightOversServiceClient</name></member>
+    <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1ab639c30114d4ca2e5d6ee069e57a2994" kind="function"><name>NewInstance</name></member>
+  </compound>
+  <compound refid="namespace_application_1_1_d_a_o_interfaces" kind="namespace"><name>Application::DAOInterfaces</name>
+  </compound>
+  <compound refid="namespace_application_1_1_logic" kind="namespace"><name>Application::Logic</name>
+  </compound>
+  <compound refid="namespace_application_1_1_logic_interfaces" kind="namespace"><name>Application::LogicInterfaces</name>
+  </compound>
+  <compound refid="namespace_blazorise" kind="namespace"><name>Blazorise</name>
+  </compound>
+  <compound refid="namespace_blazorise_1_1_bootstrap5" kind="namespace"><name>Blazorise::Bootstrap5</name>
+  </compound>
+  <compound refid="namespace_blazorise_1_1_icons_1_1_font_awesome" kind="namespace"><name>Blazorise::Icons::FontAwesome</name>
+  </compound>
+  <compound refid="namespace_blazor_w_a_s_m" kind="namespace"><name>BlazorWASM</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_builder" kind="namespace"><name>global::Microsoft::AspNetCore::Builder</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_hosting" kind="namespace"><name>global::Microsoft::AspNetCore::Hosting</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_http" kind="namespace"><name>global::Microsoft::AspNetCore::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_routing" kind="namespace"><name>global::Microsoft::AspNetCore::Routing</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_configuration" kind="namespace"><name>global::Microsoft::Extensions::Configuration</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_dependency_injection" kind="namespace"><name>global::Microsoft::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_hosting" kind="namespace"><name>global::Microsoft::Extensions::Hosting</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_logging" kind="namespace"><name>global::Microsoft::Extensions::Logging</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http_1_1_json" kind="namespace"><name>global::System::Net::Http::Json</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespacegrpc" kind="namespace"><name>grpc</name>
+  </compound>
+  <compound refid="namespace_grpc_1_1_core" kind="namespace"><name>Grpc::Core</name>
+  </compound>
+  <compound refid="namespace_grpc_1_1_net_1_1_client" kind="namespace"><name>Grpc::Net::Client</name>
+  </compound>
+  <compound refid="namespace_grpc_client" kind="namespace"><name>GrpcClient</name>
+  </compound>
+  <compound refid="namespace_grpc_client_1_1_d_a_o_services" kind="namespace"><name>GrpcClient::DAOServices</name>
+  </compound>
+  <compound refid="namespace_http_clients" kind="namespace"><name>HttpClients</name>
+  </compound>
+  <compound refid="namespace_http_clients_1_1_client_interfaces" kind="namespace"><name>HttpClients::ClientInterfaces</name>
+  </compound>
+  <compound refid="namespace_http_clients_1_1_implementations" kind="namespace"><name>HttpClients::Implementations</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web" kind="namespace"><name>Microsoft::AspNetCore::Components::Web</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web_assembly_1_1_hosting" kind="namespace"><name>Microsoft::AspNetCore::Components::WebAssembly::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc" kind="namespace"><name>Microsoft::AspNetCore::Mvc</name>
+  </compound>
+  <compound refid="namespacepb" kind="namespace"><name>pb</name>
+  </compound>
+  <compound refid="namespacepbc" kind="namespace"><name>pbc</name>
+  </compound>
+  <compound refid="namespacepbr" kind="namespace"><name>pbr</name>
+  </compound>
+  <compound refid="namespacescg" kind="namespace"><name>scg</name>
+  </compound>
+  <compound refid="namespace_shared_1_1_dtos" kind="namespace"><name>Shared::Dtos</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_http_1_1_json" kind="namespace"><name>System::Net::Http::Json</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_access_control" kind="namespace"><name>System::Security::AccessControl</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_json" kind="namespace"><name>System::Text::Json</name>
+  </compound>
+  <compound refid="_i_food_post_dao_8cs" kind="file"><name>IFoodPostDao.cs</name>
+  </compound>
+  <compound refid="_food_post_logic_8cs" kind="file"><name>FoodPostLogic.cs</name>
+  </compound>
+  <compound refid="_i_food_post_logic_8cs" kind="file"><name>IFoodPostLogic.cs</name>
+  </compound>
+  <compound refid="_application_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_blazor_w_a_s_m_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_grpc_client_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_http_clients_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_shared_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_tests_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_web_a_p_i_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_application_8_assembly_info_8cs" kind="file"><name>Application.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_application_8_global_usings_8g_8cs" kind="file"><name>Application.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_blazor_w_a_s_m_8_assembly_info_8cs" kind="file"><name>BlazorWASM.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_blazor_w_a_s_m_8_global_usings_8g_8cs" kind="file"><name>BlazorWASM.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_blazor_w_a_s_m_2_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="_blazor_w_a_s_m_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kind="variable"><name>builder</name></member>
+    <member refid="_blazor_w_a_s_m_2_program_8cs_1a40d549968a84d91d5a5eb9ecf29daae9" kind="function"><name>Add&lt; App &gt;</name></member>
+    <member refid="_blazor_w_a_s_m_2_program_8cs_1ad6782a94a41c3712e4b16f5e5e37f781" kind="function"><name>Add&lt; HeadOutlet &gt;</name></member>
+    <member refid="_blazor_w_a_s_m_2_program_8cs_1ab5d04d657b50b8db63f6767f9f59d83d" kind="function"><name>AddScoped&lt; IFoodPostWebService, FoodPostHttpClient &gt;</name></member>
+    <member refid="_blazor_w_a_s_m_2_program_8cs_1ab2547a5795e1ccbc55ce9442762415ed" kind="function"><name>AddScoped</name></member>
+    <member refid="_blazor_w_a_s_m_2_program_8cs_1adfcb708d780f7c81cae0da184727ff09" kind="function"><name>AddBlazorise</name></member>
+    <member refid="_blazor_w_a_s_m_2_program_8cs_1a103eab9352a5901779f62f6c98b53f7b" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="_grpc_client_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_tests_2_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="_tests_2_program_8cs_1a64ade19d7733218f05b62f81798b2658" kind="variable"><name>service</name></member>
+    <member refid="_tests_2_program_8cs_1a569a6f3404379673f6890a55d8a6b3af" kind="variable"><name>dto</name></member>
+    <member refid="_tests_2_program_8cs_1a68e33d7d984cd5e38db2162b79724c48" kind="variable"><name>createdDto</name></member>
+    <member refid="_tests_2_program_8cs_1ac5b121c119655db93ecfc4d4b36c11a1" kind="function"><name>Write</name></member>
+  </compound>
+  <compound refid="_web_a_p_i_2_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kind="variable"><name>builder</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kind="variable"><name>app</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1abc3694a0e15618f2499e5a540264f833" kind="function"><name>AddControllers</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1a0d7859f9cad50e8e9fdf015100780e07" kind="function"><name>AddEndpointsApiExplorer</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1ae0ce43c019a5621d731d0c622c793644" kind="function"><name>AddSwaggerGen</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1ab91decd4b05f820ea65469da6d2a86f4" kind="function"><name>AddScoped&lt; IFoodPostDao, FoodPostService &gt;</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1a4c3eee4666c18123b58fd71c9e85738e" kind="function"><name>AddScoped&lt; IFoodPostLogic, FoodPostLogic &gt;</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1a490c4127fedc91f86231d9e4d1331522" kind="function"><name>UseCors</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1a79a944c7f0e25196ca3c5a8638b919b9" kind="function"><name>if</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1aa4d447fc3129a3aa301d736b8bd04ae9" kind="function"><name>UseHttpsRedirection</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1af6f72d752b2e73aa0292f74bd13237ab" kind="function"><name>UseAuthorization</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1a9e2ee3170aa6279b68eefd1651f7d96c" kind="function"><name>MapControllers</name></member>
+    <member refid="_web_a_p_i_2_program_8cs_1aaa3dbf02e269c3ef7e8546d290c6b3dd" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_food_post_service_8cs" kind="file"><name>FoodPostService.cs</name>
+  </compound>
+  <compound refid="_grpc_client_8_assembly_info_8cs" kind="file"><name>GrpcClient.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_grpc_client_8_global_usings_8g_8cs" kind="file"><name>GrpcClient.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_rightovers_8cs" kind="file"><name>Rightovers.cs</name>
+    <member refid="_rightovers_8cs_1a3a8b1403f9034aa88aad1ce2c733db60" kind="typedef"><name>pb</name></member>
+    <member refid="_rightovers_8cs_1acf353ca81053b715ef0a189df5a75499" kind="typedef"><name>pbc</name></member>
+    <member refid="_rightovers_8cs_1a4c9bca18934bf8b310b9d65812404c69" kind="typedef"><name>pbr</name></member>
+    <member refid="_rightovers_8cs_1a6de48d7be2d1c733071a3f897657ee05" kind="typedef"><name>scg</name></member>
+  </compound>
+  <compound refid="_rightovers_grpc_8cs" kind="file"><name>RightoversGrpc.cs</name>
+    <member refid="_rightovers_grpc_8cs_1ac1caf7931d9a6735b7877748b4ae5c7a" kind="typedef"><name>grpc</name></member>
+  </compound>
+  <compound refid="_class1_8cs" kind="file"><name>Class1.cs</name>
+  </compound>
+  <compound refid="_i_food_post_web_service_8cs" kind="file"><name>IFoodPostWebService.cs</name>
+  </compound>
+  <compound refid="_food_post_http_client_8cs" kind="file"><name>FoodPostHttpClient.cs</name>
+  </compound>
+  <compound refid="_http_clients_8_assembly_info_8cs" kind="file"><name>HttpClients.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_http_clients_8_global_usings_8g_8cs" kind="file"><name>HttpClients.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_food_post_created_dto_8cs" kind="file"><name>FoodPostCreatedDto.cs</name>
+  </compound>
+  <compound refid="_food_post_creation_dto_8cs" kind="file"><name>FoodPostCreationDto.cs</name>
+  </compound>
+  <compound refid="_food_post_8cs" kind="file"><name>FoodPost.cs</name>
+  </compound>
+  <compound refid="_shared_8_assembly_info_8cs" kind="file"><name>Shared.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_shared_8_global_usings_8g_8cs" kind="file"><name>Shared.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_tests_8_assembly_info_8cs" kind="file"><name>Tests.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_tests_8_global_usings_8g_8cs" kind="file"><name>Tests.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_food_posts_controller_8cs" kind="file"><name>FoodPostsController.cs</name>
+  </compound>
+  <compound refid="_web_a_p_i_8_assembly_info_8cs" kind="file"><name>WebAPI.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_web_a_p_i_8_global_usings_8g_8cs" kind="file"><name>WebAPI.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_web_a_p_i_8_mvc_application_parts_assembly_info_8cs" kind="file"><name>WebAPI.MvcApplicationPartsAssemblyInfo.cs</name>
+  </compound>
+  <compound refid="md__c___users_thanks__documents__git_hub__kamil_proof_vest___c_o_d_e____blazor__web_a_p_i__right668f88ae3a6bd4a26c6b7cb56bbb0051" kind="page"><name>md_C__Users_thanks_Documents_GitHub_KamilProofVest__CODE___Blazor_WebAPI__rightovers_BlazorWASM_wwwroot_css_open_iconic_README</name>
+  </compound>
+  <compound refid="dir_5328307c6fe05483549204824b3b6f57" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]</name>
+  </compound>
+  <compound refid="dir_105a4b06e8901c49c35bb45d59fb1e34" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]</name>
+  </compound>
+  <compound refid="dir_e0c0afd10b8ccd7fb49a504a5e2f963e" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application</name>
+  </compound>
+  <compound refid="dir_7dc7260a79c6806e49c3f8b22caa9de8" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM</name>
+  </compound>
+  <compound refid="dir_d099430fa62475e367e3e6879ba81a5e" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/ClientInterfaces</name>
+  </compound>
+  <compound refid="dir_7aa5ce36d0d3d55c2b9c76e5dc7c7dca" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers</name>
+  </compound>
+  <compound refid="dir_ee04a56bf1beaa88cf427d69b043833f" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/wwwroot/css</name>
+  </compound>
+  <compound refid="dir_e521fb930b40bef39c6e68ec390bf70b" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/DAOInterfaces</name>
+  </compound>
+  <compound refid="dir_3e4ecb56aadafdd65545826477a42bf2" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices</name>
+  </compound>
+  <compound refid="dir_394b3f739c3f424ee2ada8ea19c69273" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/obj/Debug</name>
+  </compound>
+  <compound refid="dir_32d8822772b6dd43f0a47ccc80984295" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/obj/Debug</name>
+  </compound>
+  <compound refid="dir_2d9516d90736e589be9b9fabd9e3ea64" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug</name>
+  </compound>
+  <compound refid="dir_e41ae9ab980d30ba13edd6f5b60e96e5" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/obj/Debug</name>
+  </compound>
+  <compound refid="dir_cf9df24d719fe59580ad9af88d918be2" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/obj/Debug</name>
+  </compound>
+  <compound refid="dir_48072e42e227e631a894e13d5aba4904" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/obj/Debug</name>
+  </compound>
+  <compound refid="dir_3b9706d8a31c57f5bee39e4782e54f36" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/obj/Debug</name>
+  </compound>
+  <compound refid="dir_664d43f2c64e5bcbb585e577242a1887" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos</name>
+  </compound>
+  <compound refid="dir_e5fbe6d2783ccd4c93c7856d92d7be6e" kind="dir"><name>C:/Users/thanks/Documents/GitHub</name>
+  </compound>
+  <compound refid="dir_098222e0e1f4d12189477c846523c409" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient</name>
+  </compound>
+  <compound refid="dir_a34ba339c5c5e14ea8c11589de955aeb" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients</name>
+  </compound>
+  <compound refid="dir_a5228dd5e3dfca8ca31b2dd3121d5887" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/Implementations</name>
+  </compound>
+  <compound refid="dir_bad25781d3bc5bd0a53c8676b459a30c" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest</name>
+  </compound>
+  <compound refid="dir_2a52fa63a5b4334e8588c0c3f249171b" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic</name>
+  </compound>
+  <compound refid="dir_15aa16b236ca380f829a6e905d50c29b" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/LogicInterfaces</name>
+  </compound>
+  <compound refid="dir_153cd57bced083d037ca313d870a1249" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/models</name>
+  </compound>
+  <compound refid="dir_47d40eb7ef5d3799c7d2e38f83534e39" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_b0c331d34c55def709d680b113989631" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_eef2d4a7f1f47cb98cb7196806630e9d" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_b4f7e39d477bccbe7e0080b8773c7981" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_b4087e86226e92f9894c376e515f53be" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_f136e9002f19d67bc6b0176fa11bd32c" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_00d531684d84a8e55a39a146551e1cdb" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_733e5d0f369cc8d6c31a075e92614bbd" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/obj</name>
+  </compound>
+  <compound refid="dir_d8839092661e54d70fadfe79f12e29ba" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/obj</name>
+  </compound>
+  <compound refid="dir_14305ca0ba5fdbd2b1aad9ea168865ec" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj</name>
+  </compound>
+  <compound refid="dir_e7ec62c418910ce6241810f89c9beac9" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/obj</name>
+  </compound>
+  <compound refid="dir_19df5524ccc2905b3e99907af77b84ce" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/obj</name>
+  </compound>
+  <compound refid="dir_6d255b87beb31b83062f4506a5214250" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/obj</name>
+  </compound>
+  <compound refid="dir_5780edc399c8ccde44ec9cc7999f7b6c" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/obj</name>
+  </compound>
+  <compound refid="dir_18b69a5c0df828808793638f864979ed" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/wwwroot/css/open-iconic</name>
+  </compound>
+  <compound refid="dir_30f87ce1925b2b5c67d27440cfa0948f" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos</name>
+  </compound>
+  <compound refid="dir_f79f066d1cff23512cc41c451528d0a7" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers</name>
+  </compound>
+  <compound refid="dir_aafca731e26ba9b8635290fdce667581" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared</name>
+  </compound>
+  <compound refid="dir_06f07b7458bdaa2026a9cfb6833e20de" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests</name>
+  </compound>
+  <compound refid="dir_69c9258029edcf8fb48fae5bd239de61" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI</name>
+  </compound>
+  <compound refid="dir_ba4d74620d82d2a61f93f93c20b3d158" kind="dir"><name>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/wwwroot</name>
+  </compound>
+</doxygenindex>

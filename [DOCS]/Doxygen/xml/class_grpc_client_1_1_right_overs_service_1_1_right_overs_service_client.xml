@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client" kind="class" language="C#" prot="public">
+    <compoundname>GrpcClient::RightOversService::RightOversServiceClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">grpc::ClientBase&lt; RightOversServiceClient &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a800494ed156e72ebca67b1293a7fb9e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</definition>
+        <argsstring>(grpc::ChannelBase channel)</argsstring>
+        <name>RightOversServiceClient</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</qualifiedname>
+        <param>
+          <type>grpc::ChannelBase</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new client for RightOversService </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The channel to use to make remote calls.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="73" column="14" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1ae07585b6af481f0c2a80183edfea5853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</definition>
+        <argsstring>(grpc::CallInvoker callInvoker)</argsstring>
+        <name>RightOversServiceClient</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</qualifiedname>
+        <param>
+          <type>grpc::CallInvoker</type>
+          <declname>callInvoker</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new client for RightOversService that uses a custom <computeroutput>CallInvoker</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callInvoker</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callInvoker to use to make remote calls.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="79" column="14" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a44543cc9ad9e09825c849c1eac7a860b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>global::GrpcClient.FoodPostCreatedResponse</type>
+        <definition>virtual global::GrpcClient.FoodPostCreatedResponse GrpcClient.RightOversService.RightOversServiceClient.saveFoodPost</definition>
+        <argsstring>(global::GrpcClient.FoodPostRequest request, grpc::Metadata headers=null, global::System.DateTime? deadline=null, global::System.Threading.CancellationToken cancellationToken=default(global::System.Threading.CancellationToken))</argsstring>
+        <name>saveFoodPost</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.saveFoodPost</qualifiedname>
+        <param>
+          <type>global::GrpcClient.FoodPostRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>grpc::Metadata</type>
+          <declname>headers</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>global::System.DateTime?</type>
+          <declname>deadline</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>global::System.Threading.CancellationToken</type>
+          <declname>cancellationToken</declname>
+          <defval>default(global::System.Threading.CancellationToken)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="95" column="64" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a5dd8688f7b4d4bd388c454e7d0c51a60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>global::GrpcClient.FoodPostCreatedResponse</type>
+        <definition>virtual global::GrpcClient.FoodPostCreatedResponse GrpcClient.RightOversService.RightOversServiceClient.saveFoodPost</definition>
+        <argsstring>(global::GrpcClient.FoodPostRequest request, grpc::CallOptions options)</argsstring>
+        <name>saveFoodPost</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.saveFoodPost</qualifiedname>
+        <param>
+          <type>global::GrpcClient.FoodPostRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>grpc::CallOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="100" column="64" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1abd9b53340dfe3fdb2ee7d866468caf7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>grpc::AsyncUnaryCall&lt; global::GrpcClient.FoodPostCreatedResponse &gt;</type>
+        <definition>virtual grpc::AsyncUnaryCall&lt; global::GrpcClient.FoodPostCreatedResponse &gt; GrpcClient.RightOversService.RightOversServiceClient.saveFoodPostAsync</definition>
+        <argsstring>(global::GrpcClient.FoodPostRequest request, grpc::Metadata headers=null, global::System.DateTime? deadline=null, global::System.Threading.CancellationToken cancellationToken=default(global::System.Threading.CancellationToken))</argsstring>
+        <name>saveFoodPostAsync</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.saveFoodPostAsync</qualifiedname>
+        <param>
+          <type>global::GrpcClient.FoodPostRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>grpc::Metadata</type>
+          <declname>headers</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>global::System.DateTime?</type>
+          <declname>deadline</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>global::System.Threading.CancellationToken</type>
+          <declname>cancellationToken</declname>
+          <defval>default(global::System.Threading.CancellationToken)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="105" column="43" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1abc95acc474ea68daceb4c468ab037f85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>grpc::AsyncUnaryCall&lt; global::GrpcClient.FoodPostCreatedResponse &gt;</type>
+        <definition>virtual grpc::AsyncUnaryCall&lt; global::GrpcClient.FoodPostCreatedResponse &gt; GrpcClient.RightOversService.RightOversServiceClient.saveFoodPostAsync</definition>
+        <argsstring>(global::GrpcClient.FoodPostRequest request, grpc::CallOptions options)</argsstring>
+        <name>saveFoodPostAsync</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.saveFoodPostAsync</qualifiedname>
+        <param>
+          <type>global::GrpcClient.FoodPostRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>grpc::CallOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="110" column="43" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a47142acfe247e900c2dfc5487400dc63" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</definition>
+        <argsstring>()</argsstring>
+        <name>RightOversServiceClient</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</qualifiedname>
+        <briefdescription>
+<para>Protected parameterless constructor to allow creation of test doubles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="84" column="17" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a9147386c32563c3b1b9eedcf6f49d325" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</definition>
+        <argsstring>(ClientBaseConfiguration configuration)</argsstring>
+        <name>RightOversServiceClient</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient</qualifiedname>
+        <param>
+          <type>ClientBaseConfiguration</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+<para>Protected constructor to allow creation of configured clients. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>configuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The client configuration.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="90" column="17" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1ab639c30114d4ca2e5d6ee069e57a2994" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client" kindref="compound">RightOversServiceClient</ref></type>
+        <definition>override RightOversServiceClient GrpcClient.RightOversService.RightOversServiceClient.NewInstance</definition>
+        <argsstring>(ClientBaseConfiguration configuration)</argsstring>
+        <name>NewInstance</name>
+        <qualifiedname>GrpcClient.RightOversService.RightOversServiceClient.NewInstance</qualifiedname>
+        <param>
+          <type>ClientBaseConfiguration</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new instance of client from given <computeroutput>ClientBaseConfiguration</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="116" column="50" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="116" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Client for RightOversService </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GrpcClient.RightOversService.RightOversServiceClient</label>
+        <link refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>grpc::ClientBase&lt; RightOversServiceClient &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GrpcClient.RightOversService.RightOversServiceClient</label>
+        <link refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>grpc::ClientBase&lt; RightOversServiceClient &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" line="68" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/RightoversGrpc.cs" bodystart="69" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1ab639c30114d4ca2e5d6ee069e57a2994" prot="protected" virt="non-virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>NewInstance</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a800494ed156e72ebca67b1293a7fb9e0" prot="public" virt="non-virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>RightOversServiceClient</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1ae07585b6af481f0c2a80183edfea5853" prot="public" virt="non-virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>RightOversServiceClient</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a47142acfe247e900c2dfc5487400dc63" prot="protected" virt="non-virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>RightOversServiceClient</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a9147386c32563c3b1b9eedcf6f49d325" prot="protected" virt="non-virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>RightOversServiceClient</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a44543cc9ad9e09825c849c1eac7a860b" prot="public" virt="virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>saveFoodPost</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1a5dd8688f7b4d4bd388c454e7d0c51a60" prot="public" virt="virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>saveFoodPost</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1abd9b53340dfe3fdb2ee7d866468caf7d" prot="public" virt="virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>saveFoodPostAsync</name></member>
+      <member refid="class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client_1abc95acc474ea68daceb4c468ab037f85" prot="public" virt="virtual"><scope>GrpcClient::RightOversService::RightOversServiceClient</scope><name>saveFoodPostAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

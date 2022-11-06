@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_grpc_client_1_1_food_post_request" kind="class" language="C#" prot="public">
+    <compoundname>GrpcClient::FoodPostRequest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">pb::IMessage&lt; FoodPostRequest &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">pb.IBufferMessage</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1ab9a2f3274aa80f6bf4c7e3d9fc289363" prot="private" static="yes" mutable="no">
+        <type>readonly pb::MessageParser&lt; <ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref> &gt;</type>
+        <definition>readonly pb::MessageParser&lt;FoodPostRequest&gt; GrpcClient.FoodPostRequest._parser</definition>
+        <argsstring></argsstring>
+        <name>_parser</name>
+        <qualifiedname>GrpcClient.FoodPostRequest._parser</qualifiedname>
+        <initializer>= new pb::MessageParser&lt;<ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref>&gt;(() =&gt; new <ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref>())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="52" column="47" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a207cca0ba4337e55be3adcf36238cdd7" prot="private" static="no" mutable="no">
+        <type>pb::UnknownFieldSet</type>
+        <definition>pb::UnknownFieldSet GrpcClient.FoodPostRequest._unknownFields</definition>
+        <argsstring></argsstring>
+        <name>_unknownFields</name>
+        <qualifiedname>GrpcClient.FoodPostRequest._unknownFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="53" column="33" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1ad00e9bad9d78adf90cb2dce3727b37fa" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.title_</definition>
+        <argsstring></argsstring>
+        <name>title_</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.title_</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="98" column="20" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a84bf3780e367df5d27d46f25b2621c3e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.description_</definition>
+        <argsstring></argsstring>
+        <name>description_</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.description_</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="110" column="20" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a6127ae9e91cd88802985511e8d19b87e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.daysLeftToEat_</definition>
+        <argsstring></argsstring>
+        <name>daysLeftToEat_</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.daysLeftToEat_</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="122" column="20" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a2934130c0b05d7d29c686b130695fe84" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.creatorUserName_</definition>
+        <argsstring></argsstring>
+        <name>creatorUserName_</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.creatorUserName_</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="134" column="20" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a86c1c671859edfd065933d9c825c2a59" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.category_</definition>
+        <argsstring></argsstring>
+        <name>category_</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.category_</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="146" column="20" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1ab95febdc35cf736796e6a369027b05e6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.pictureUrl_</definition>
+        <argsstring></argsstring>
+        <name>pictureUrl_</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.pictureUrl_</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="158" column="20" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1aa6e970372979ca0053f4a57af1419402" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>pb::MessageParser&lt; <ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref> &gt;</type>
+        <definition>pb::MessageParser&lt;FoodPostRequest&gt; GrpcClient.FoodPostRequest.Parser</definition>
+        <argsstring></argsstring>
+        <name>Parser</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Parser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="56" column="37" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1ab63f569dc1e9859bb36f50092c3bd853" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>pbr::MessageDescriptor</type>
+        <definition>pbr::MessageDescriptor GrpcClient.FoodPostRequest.Descriptor</definition>
+        <argsstring></argsstring>
+        <name>Descriptor</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Descriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="60" column="42" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1a5bb5b9c63532588bd5e2b95b3a84815d" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>pbr::MessageDescriptor pb::IMessage.</type>
+        <definition>pbr::MessageDescriptor pb::IMessage. GrpcClient.FoodPostRequest.Descriptor</definition>
+        <argsstring></argsstring>
+        <name>Descriptor</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Descriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="66" column="40" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1a7c8579047cad2f971a023c19cc092025" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="101" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1a09afa077a06ee2b843661633d039ccb7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="113" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1a125fceaab04c770eb98f313856c8ba03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.DaysLeftToEat</definition>
+        <argsstring></argsstring>
+        <name>DaysLeftToEat</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.DaysLeftToEat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="125" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="125" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1a274e1888423cbdda05366e2757b13d76" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.CreatorUserName</definition>
+        <argsstring></argsstring>
+        <name>CreatorUserName</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.CreatorUserName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="137" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="137" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1a8edf332224b2183f70d7f089eab3d0bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.Category</definition>
+        <argsstring></argsstring>
+        <name>Category</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Category</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="149" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="149" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grpc_client_1_1_food_post_request_1aa12e5c0cd86598b388b0ae402edfb030" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GrpcClient.FoodPostRequest.PictureUrl</definition>
+        <argsstring></argsstring>
+        <name>PictureUrl</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.PictureUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="161" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="161" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1ace53c99654414c8157f983e66c015224" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int GrpcClient.FoodPostRequest.TitleFieldNumber</definition>
+        <argsstring></argsstring>
+        <name>TitleFieldNumber</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.TitleFieldNumber</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>Field number for the &quot;title&quot; field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="97" column="22" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a21269225455dd0f60ba59eb4a33cedda" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int GrpcClient.FoodPostRequest.DescriptionFieldNumber</definition>
+        <argsstring></argsstring>
+        <name>DescriptionFieldNumber</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.DescriptionFieldNumber</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>Field number for the &quot;description&quot; field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="109" column="22" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a28cb04b100d1521e24dd07649f76b917" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int GrpcClient.FoodPostRequest.DaysLeftToEatFieldNumber</definition>
+        <argsstring></argsstring>
+        <name>DaysLeftToEatFieldNumber</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.DaysLeftToEatFieldNumber</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>Field number for the &quot;daysLeftToEat&quot; field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="121" column="22" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a2602bdd4a5fa421adf6c3642b2a4a740" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int GrpcClient.FoodPostRequest.CreatorUserNameFieldNumber</definition>
+        <argsstring></argsstring>
+        <name>CreatorUserNameFieldNumber</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.CreatorUserNameFieldNumber</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>Field number for the &quot;creatorUserName&quot; field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="133" column="22" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a211356dbb8619cd1aa7ff8e560fd31c5" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int GrpcClient.FoodPostRequest.CategoryFieldNumber</definition>
+        <argsstring></argsstring>
+        <name>CategoryFieldNumber</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.CategoryFieldNumber</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>Field number for the &quot;category&quot; field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="145" column="22" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grpc_client_1_1_food_post_request_1a0ef445190f9f76e49945b64768e82f8e" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int GrpcClient.FoodPostRequest.PictureUrlFieldNumber</definition>
+        <argsstring></argsstring>
+        <name>PictureUrlFieldNumber</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.PictureUrlFieldNumber</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>Field number for the &quot;pictureUrl&quot; field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="157" column="22" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a5da2396a95f132c40110cdacf1eec9ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrpcClient.FoodPostRequest.FoodPostRequest</definition>
+        <argsstring>()</argsstring>
+        <name>FoodPostRequest</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.FoodPostRequest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="72" column="12" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1ab401071b07bcc306a1e5fa8def512858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrpcClient.FoodPostRequest.FoodPostRequest</definition>
+        <argsstring>(FoodPostRequest other)</argsstring>
+        <name>FoodPostRequest</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.FoodPostRequest</qualifiedname>
+        <param>
+          <type><ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="80" column="12" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="80" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a2e35279b01d85a67d4e36ad77cfe9af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref></type>
+        <definition>FoodPostRequest GrpcClient.FoodPostRequest.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Clone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="92" column="28" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a89c21a41fab1ba5d702aba3056f0d367" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool GrpcClient.FoodPostRequest.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="170" column="26" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="170" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1aaf94ad727030052b40cb2e0727f1eb0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GrpcClient.FoodPostRequest.Equals</definition>
+        <argsstring>(FoodPostRequest other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.Equals</qualifiedname>
+        <param>
+          <type><ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="176" column="17" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="176" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a1868b8fa709b667038c17b7485b69029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int GrpcClient.FoodPostRequest.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="194" column="25" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="194" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1aa651191c85ad4b48abc58f0eec9517b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GrpcClient.FoodPostRequest.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="210" column="28" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1af7b2a9749f964c59495b8a5884cf07fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrpcClient.FoodPostRequest.WriteTo</definition>
+        <argsstring>(pb::CodedOutputStream output)</argsstring>
+        <name>WriteTo</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.WriteTo</qualifiedname>
+        <param>
+          <type>pb::CodedOutputStream</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="216" column="17" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="216" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a45065b66a69fb684080603202b3bc826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GrpcClient.FoodPostRequest.CalculateSize</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateSize</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.CalculateSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="286" column="16" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="286" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a697c00644059e925394e8de15311ea16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrpcClient.FoodPostRequest.MergeFrom</definition>
+        <argsstring>(FoodPostRequest other)</argsstring>
+        <name>MergeFrom</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.MergeFrom</qualifiedname>
+        <param>
+          <type><ref refid="class_grpc_client_1_1_food_post_request" kindref="compound">FoodPostRequest</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="314" column="17" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="314" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1aa5f111614bbb87771d5e30e235fb423c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrpcClient.FoodPostRequest.MergeFrom</definition>
+        <argsstring>(pb::CodedInputStream input)</argsstring>
+        <name>MergeFrom</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.MergeFrom</qualifiedname>
+        <param>
+          <type>pb::CodedInputStream</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="341" column="17" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="341" bodyend="378"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a3da0a0dfa33a9b2ac0ddec4f8e5515f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void GrpcClient.FoodPostRequest.OnConstruction</definition>
+        <argsstring>()</argsstring>
+        <name>OnConstruction</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.OnConstruction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="76" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a19bccaa30a4977df1e4c3885603eab7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void pb::IBufferMessage.</type>
+        <definition>void pb::IBufferMessage. GrpcClient.FoodPostRequest.InternalWriteTo</definition>
+        <argsstring>(ref pb::WriteContext output)</argsstring>
+        <name>InternalWriteTo</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.InternalWriteTo</qualifiedname>
+        <param>
+          <type>ref pb::WriteContext</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="253" column="28" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="253" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grpc_client_1_1_food_post_request_1a439016e62c08b48d827e6c70862f80f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void pb::IBufferMessage.</type>
+        <definition>void pb::IBufferMessage. GrpcClient.FoodPostRequest.InternalMergeFrom</definition>
+        <argsstring>(ref pb::ParseContext input)</argsstring>
+        <name>InternalMergeFrom</name>
+        <qualifiedname>GrpcClient.FoodPostRequest.InternalMergeFrom</qualifiedname>
+        <param>
+          <type>ref pb::ParseContext</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="383" column="28" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="383" bodyend="416"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GrpcClient.FoodPostRequest</label>
+        <link refid="class_grpc_client_1_1_food_post_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>pb::IBufferMessage</label>
+      </node>
+      <node id="2">
+        <label>pb::IMessage&lt; FoodPostRequest &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GrpcClient.FoodPostRequest</label>
+        <link refid="class_grpc_client_1_1_food_post_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>pb::IBufferMessage</label>
+      </node>
+      <node id="2">
+        <label>pb::IMessage&lt; FoodPostRequest &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="47" column="24" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="51" bodyend="419"/>
+    <listofallmembers>
+      <member refid="class_grpc_client_1_1_food_post_request_1ab9a2f3274aa80f6bf4c7e3d9fc289363" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>_parser</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a207cca0ba4337e55be3adcf36238cdd7" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>_unknownFields</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a45065b66a69fb684080603202b3bc826" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>CalculateSize</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a8edf332224b2183f70d7f089eab3d0bc" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Category</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a86c1c671859edfd065933d9c825c2a59" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>category_</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a211356dbb8619cd1aa7ff8e560fd31c5" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>CategoryFieldNumber</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a2e35279b01d85a67d4e36ad77cfe9af5" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Clone</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a274e1888423cbdda05366e2757b13d76" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>CreatorUserName</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a2934130c0b05d7d29c686b130695fe84" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>creatorUserName_</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a2602bdd4a5fa421adf6c3642b2a4a740" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>CreatorUserNameFieldNumber</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a125fceaab04c770eb98f313856c8ba03" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>DaysLeftToEat</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a6127ae9e91cd88802985511e8d19b87e" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>daysLeftToEat_</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a28cb04b100d1521e24dd07649f76b917" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>DaysLeftToEatFieldNumber</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a09afa077a06ee2b843661633d039ccb7" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Description</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a84bf3780e367df5d27d46f25b2621c3e" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>description_</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a21269225455dd0f60ba59eb4a33cedda" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>DescriptionFieldNumber</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1ab63f569dc1e9859bb36f50092c3bd853" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Descriptor</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a5bb5b9c63532588bd5e2b95b3a84815d" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Descriptor</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a89c21a41fab1ba5d702aba3056f0d367" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Equals</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1aaf94ad727030052b40cb2e0727f1eb0c" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Equals</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a5da2396a95f132c40110cdacf1eec9ed" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>FoodPostRequest</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1ab401071b07bcc306a1e5fa8def512858" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>FoodPostRequest</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a1868b8fa709b667038c17b7485b69029" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>GetHashCode</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a439016e62c08b48d827e6c70862f80f6" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>InternalMergeFrom</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a19bccaa30a4977df1e4c3885603eab7e" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>InternalWriteTo</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a697c00644059e925394e8de15311ea16" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>MergeFrom</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1aa5f111614bbb87771d5e30e235fb423c" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>MergeFrom</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a3da0a0dfa33a9b2ac0ddec4f8e5515f3" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>OnConstruction</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1aa6e970372979ca0053f4a57af1419402" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Parser</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1aa12e5c0cd86598b388b0ae402edfb030" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>PictureUrl</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1ab95febdc35cf736796e6a369027b05e6" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>pictureUrl_</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a0ef445190f9f76e49945b64768e82f8e" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>PictureUrlFieldNumber</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1a7c8579047cad2f971a023c19cc092025" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>Title</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1ad00e9bad9d78adf90cb2dce3727b37fa" prot="private" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>title_</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1ace53c99654414c8157f983e66c015224" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>TitleFieldNumber</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1aa651191c85ad4b48abc58f0eec9517b2" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>ToString</name></member>
+      <member refid="class_grpc_client_1_1_food_post_request_1af7b2a9749f964c59495b8a5884cf07fd" prot="public" virt="non-virtual"><scope>GrpcClient::FoodPostRequest</scope><name>WriteTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

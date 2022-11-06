@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_30f87ce1925b2b5c67d27440cfa0948f" kind="dir">
+    <compoundname>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos</compoundname>
+    <innerfile refid="_rightovers_8cs">Rightovers.cs</innerfile>
+    <innerfile refid="_rightovers_grpc_8cs">RightoversGrpc.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/"/>
+  </compounddef>
+</doxygen>

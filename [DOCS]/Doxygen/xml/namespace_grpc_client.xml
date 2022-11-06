@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_grpc_client" kind="namespace" language="C#">
+    <compoundname>GrpcClient</compoundname>
+    <innerclass refid="class_grpc_client_1_1_food_post_created_response" prot="public">GrpcClient::FoodPostCreatedResponse</innerclass>
+    <innerclass refid="class_grpc_client_1_1_food_post_request" prot="public">GrpcClient::FoodPostRequest</innerclass>
+    <innerclass refid="class_grpc_client_1_1_program" prot="public">GrpcClient::Program</innerclass>
+    <innerclass refid="class_grpc_client_1_1_rightovers_reflection" prot="public">GrpcClient::RightoversReflection</innerclass>
+    <innerclass refid="class_grpc_client_1_1_right_overs_service" prot="public">GrpcClient::RightOversService</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

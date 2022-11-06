@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_664d43f2c64e5bcbb585e577242a1887" kind="dir">
+    <compoundname>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos</compoundname>
+    <innerfile refid="_food_post_created_dto_8cs">FoodPostCreatedDto.cs</innerfile>
+    <innerfile refid="_food_post_creation_dto_8cs">FoodPostCreationDto.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/"/>
+  </compounddef>
+</doxygen>

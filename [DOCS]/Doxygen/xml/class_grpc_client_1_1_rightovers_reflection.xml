@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_grpc_client_1_1_rightovers_reflection" kind="class" language="C#" prot="public">
+    <compoundname>GrpcClient::RightoversReflection</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_grpc_client_1_1_rightovers_reflection_1a5296994029a02cd8d8c3c839cc9b6fcb" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>pbr::FileDescriptor</type>
+        <definition>pbr::FileDescriptor GrpcClient.RightoversReflection.Descriptor</definition>
+        <argsstring></argsstring>
+        <name>Descriptor</name>
+        <qualifiedname>GrpcClient.RightoversReflection.Descriptor</qualifiedname>
+        <briefdescription>
+<para>File descriptor for Protos/Rightovers.proto </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="19" column="39" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_grpc_client_1_1_rightovers_reflection_1aeb76ab7d7ab2aeb2cf18358d06c8f7ba" prot="private" static="yes" mutable="no">
+        <type>pbr::FileDescriptor</type>
+        <definition>pbr::FileDescriptor GrpcClient.RightoversReflection.descriptor</definition>
+        <argsstring></argsstring>
+        <name>descriptor</name>
+        <qualifiedname>GrpcClient.RightoversReflection.descriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="22" column="40" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_grpc_client_1_1_rightovers_reflection_1ae32f6f022c14da56264e1eb7c91c6af8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static GrpcClient.RightoversReflection.RightoversReflection</definition>
+        <argsstring>()</argsstring>
+        <name>RightoversReflection</name>
+        <qualifiedname>GrpcClient.RightoversReflection.RightoversReflection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="24" column="12" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="24" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Holder for reflection information generated from Protos/Rightovers.proto </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" line="15" column="24" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/obj/Debug/net6.0/Protos/Rightovers.cs" bodystart="15" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_grpc_client_1_1_rightovers_reflection_1a5296994029a02cd8d8c3c839cc9b6fcb" prot="public" virt="non-virtual"><scope>GrpcClient::RightoversReflection</scope><name>Descriptor</name></member>
+      <member refid="class_grpc_client_1_1_rightovers_reflection_1aeb76ab7d7ab2aeb2cf18358d06c8f7ba" prot="private" virt="non-virtual"><scope>GrpcClient::RightoversReflection</scope><name>descriptor</name></member>
+      <member refid="class_grpc_client_1_1_rightovers_reflection_1ae32f6f022c14da56264e1eb7c91c6af8" prot="private" virt="non-virtual"><scope>GrpcClient::RightoversReflection</scope><name>RightoversReflection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

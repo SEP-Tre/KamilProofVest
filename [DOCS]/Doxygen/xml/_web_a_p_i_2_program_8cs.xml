@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_web_a_p_i_2_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <innernamespace refid="namespace_application_1_1_logic">Application::Logic</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <initializer>= WebApplication.CreateBuilder(args)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="6" column="5" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <initializer>= builder.Build()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="17" column="5" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1abc3694a0e15618f2499e5a540264f833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddControllers</definition>
+        <argsstring>()</argsstring>
+        <name>AddControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="10" column="16" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="10" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a0d7859f9cad50e8e9fdf015100780e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddEndpointsApiExplorer</definition>
+        <argsstring>()</argsstring>
+        <name>AddEndpointsApiExplorer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="12" column="16" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="12" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1ae0ce43c019a5621d731d0c622c793644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddSwaggerGen</definition>
+        <argsstring>()</argsstring>
+        <name>AddSwaggerGen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="13" column="16" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="13" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1ab91decd4b05f820ea65469da6d2a86f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped&lt; IFoodPostDao, FoodPostService &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddScoped&lt; IFoodPostDao, FoodPostService &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="14" column="8" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="14" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a4c3eee4666c18123b58fd71c9e85738e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped&lt; IFoodPostLogic, FoodPostLogic &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddScoped&lt; IFoodPostLogic, FoodPostLogic &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="15" column="8" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="15" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a490c4127fedc91f86231d9e4d1331522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseCors</definition>
+        <argsstring>(x=&gt; x .AllowAnyMethod() .AllowAnyHeader() .SetIsOriginAllowed(origin=&gt; true) .AllowCredentials())</argsstring>
+        <name>UseCors</name>
+        <param>
+          <type>x</type>
+        </param>
+        <param>
+          <type>x .</type>
+          <declname>AllowAnyMethod</declname>
+          <array>) .AllowAnyHeader() .SetIsOriginAllowed(origin=&gt; true) .AllowCredentials(</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="19" column="4" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="19" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a79a944c7f0e25196ca3c5a8638b919b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>if</definition>
+        <argsstring>(app.Environment.IsDevelopment())</argsstring>
+        <name>if</name>
+        <param>
+          <type>app.Environment.</type>
+          <declname>IsDevelopment</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="26" column="1" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1aa4d447fc3129a3aa301d736b8bd04ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseHttpsRedirection</definition>
+        <argsstring>()</argsstring>
+        <name>UseHttpsRedirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="32" column="4" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="32" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1af6f72d752b2e73aa0292f74bd13237ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseAuthorization</definition>
+        <argsstring>()</argsstring>
+        <name>UseAuthorization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="34" column="4" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="34" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a9e2ee3170aa6279b68eefd1651f7d96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. MapControllers</definition>
+        <argsstring>()</argsstring>
+        <name>MapControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="36" column="4" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="36" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1aaa3dbf02e269c3ef7e8546d290c6b3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" line="38" column="4" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs" declline="38" declcolumn="4"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Application.DAOInterfaces;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Application.Logic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Application.LogicInterfaces;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">GrpcClient.DAOServices;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">var<sp/>builder<sp/>=<sp/>WebApplication.CreateBuilder(args);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Add<sp/>services<sp/>to<sp/>the<sp/>container.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">builder.Services.AddControllers();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Learn<sp/>more<sp/>about<sp/>configuring<sp/>Swagger/OpenAPI<sp/>at<sp/>https://aka.ms/aspnetcore/swashbuckle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">builder.Services.AddEndpointsApiExplorer();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">builder.Services.AddSwaggerGen();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">builder.Services.AddScoped&lt;<ref refid="interface_i_food_post_dao" kindref="compound">IFoodPostDao</ref>,<sp/><ref refid="class_food_post_service" kindref="compound">FoodPostService</ref>&gt;();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">builder.Services.AddScoped&lt;<ref refid="interface_i_food_post_logic" kindref="compound">IFoodPostLogic</ref>,<sp/><ref refid="class_food_post_logic" kindref="compound">FoodPostLogic</ref>&gt;();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">var<sp/>app<sp/>=<sp/>builder.Build();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">app.UseCors(x<sp/>=&gt;<sp/>x</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>.AllowAnyMethod()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>.AllowAnyHeader()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>.SetIsOriginAllowed(origin<sp/>=&gt;<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//<sp/>allow<sp/>any<sp/>origin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>.AllowCredentials());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Configure<sp/>the<sp/>HTTP<sp/>request<sp/>pipeline.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(app.Environment.IsDevelopment())</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>app.UseSwagger();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>app.UseSwaggerUI();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">app.UseHttpsRedirection();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">app.UseAuthorization();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">app.MapControllers();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">app.Run();</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Program.cs"/>
+  </compounddef>
+</doxygen>

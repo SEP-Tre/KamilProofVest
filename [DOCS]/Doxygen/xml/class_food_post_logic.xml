@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_food_post_logic" kind="class" language="C#" prot="public">
+    <compoundname>FoodPostLogic</compoundname>
+    <basecompoundref refid="interface_i_food_post_logic" prot="public" virt="non-virtual">IFoodPostLogic</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_food_post_logic_1a3240b51f7bfacb52523001561296bd1a" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_i_food_post_dao" kindref="compound">IFoodPostDao</ref></type>
+        <definition>readonly IFoodPostDao FoodPostLogic.foodPostDaoService</definition>
+        <argsstring></argsstring>
+        <name>foodPostDaoService</name>
+        <qualifiedname>FoodPostLogic.foodPostDaoService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" line="9" column="35" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_food_post_logic_1a90c4c2fa288f2f48f0fec79cbd2c2600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FoodPostLogic.FoodPostLogic</definition>
+        <argsstring>(IFoodPostDao foodPostDaoService)</argsstring>
+        <name>FoodPostLogic</name>
+        <qualifiedname>FoodPostLogic.FoodPostLogic</qualifiedname>
+        <param>
+          <type><ref refid="interface_i_food_post_dao" kindref="compound">IFoodPostDao</ref></type>
+          <declname>foodPostDaoService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" line="11" column="12" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_food_post_logic_1a7323d6af58d225d0f25c59d22df15da0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_food_post_created_dto" kindref="compound">FoodPostCreatedDto</ref> &gt;</type>
+        <definition>async Task&lt; FoodPostCreatedDto &gt; FoodPostLogic.CreateAsync</definition>
+        <argsstring>(FoodPostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>FoodPostLogic.CreateAsync</qualifiedname>
+        <reimplements refid="interface_i_food_post_logic_1a643a617f35fa3bd38ac692cf446a1528">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" line="16" column="23" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FoodPostLogic</label>
+        <link refid="class_food_post_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFoodPostLogic</label>
+        <link refid="interface_i_food_post_logic"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FoodPostLogic</label>
+        <link refid="class_food_post_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFoodPostLogic</label>
+        <link refid="interface_i_food_post_logic"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" line="7" column="7" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Application/Logic/FoodPostLogic.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_food_post_logic_1a7323d6af58d225d0f25c59d22df15da0" prot="public" virt="non-virtual"><scope>FoodPostLogic</scope><name>CreateAsync</name></member>
+      <member refid="class_food_post_logic_1a3240b51f7bfacb52523001561296bd1a" prot="private" virt="non-virtual"><scope>FoodPostLogic</scope><name>foodPostDaoService</name></member>
+      <member refid="class_food_post_logic_1a90c4c2fa288f2f48f0fec79cbd2c2600" prot="public" virt="non-virtual"><scope>FoodPostLogic</scope><name>FoodPostLogic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_food_post_creation_dto" kind="class" language="C#" prot="public">
+    <compoundname>FoodPostCreationDto</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_food_post_creation_dto_1adce23a94caf560977ef46ab9f5c6846e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FoodPostCreationDto.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <qualifiedname>FoodPostCreationDto.title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="5" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_food_post_creation_dto_1ad517b4eaec5bfeed34599779dcf7251a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FoodPostCreationDto.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>FoodPostCreationDto.description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="6" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_food_post_creation_dto_1a4267f03de0760d182903bb52a9c630b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FoodPostCreationDto.daysLeftToEat</definition>
+        <argsstring></argsstring>
+        <name>daysLeftToEat</name>
+        <qualifiedname>FoodPostCreationDto.daysLeftToEat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="7" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_food_post_creation_dto_1a453ba227231d26544d9f6f87ee044d98" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FoodPostCreationDto.creatorUsername</definition>
+        <argsstring></argsstring>
+        <name>creatorUsername</name>
+        <qualifiedname>FoodPostCreationDto.creatorUsername</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="8" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_food_post_creation_dto_1ae215ecc1906ac6a351ac0c0560abf504" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FoodPostCreationDto.category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <qualifiedname>FoodPostCreationDto.category</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="9" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_food_post_creation_dto_1a1427881706e505770b6409058dbea24c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FoodPostCreationDto.pictureUrl</definition>
+        <argsstring></argsstring>
+        <name>pictureUrl</name>
+        <qualifiedname>FoodPostCreationDto.pictureUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="10" column="19" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_food_post_creation_dto_1a79edc4813ab31fdd6d3f79782f6173db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string FoodPostCreationDto.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>FoodPostCreationDto.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="13" column="28" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" line="3" column="7" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Shared/Dtos/FoodPostCreationDto.cs" bodystart="4" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_food_post_creation_dto_1ae215ecc1906ac6a351ac0c0560abf504" prot="public" virt="non-virtual"><scope>FoodPostCreationDto</scope><name>category</name></member>
+      <member refid="class_food_post_creation_dto_1a453ba227231d26544d9f6f87ee044d98" prot="public" virt="non-virtual"><scope>FoodPostCreationDto</scope><name>creatorUsername</name></member>
+      <member refid="class_food_post_creation_dto_1a4267f03de0760d182903bb52a9c630b3" prot="public" virt="non-virtual"><scope>FoodPostCreationDto</scope><name>daysLeftToEat</name></member>
+      <member refid="class_food_post_creation_dto_1ad517b4eaec5bfeed34599779dcf7251a" prot="public" virt="non-virtual"><scope>FoodPostCreationDto</scope><name>description</name></member>
+      <member refid="class_food_post_creation_dto_1a1427881706e505770b6409058dbea24c" prot="public" virt="non-virtual"><scope>FoodPostCreationDto</scope><name>pictureUrl</name></member>
+      <member refid="class_food_post_creation_dto_1adce23a94caf560977ef46ab9f5c6846e" prot="public" virt="non-virtual"><scope>FoodPostCreationDto</scope><name>title</name></member>
+      <member refid="class_food_post_creation_dto_1a79edc4813ab31fdd6d3f79782f6173db" prot="public" virt="non-virtual"><scope>FoodPostCreationDto</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

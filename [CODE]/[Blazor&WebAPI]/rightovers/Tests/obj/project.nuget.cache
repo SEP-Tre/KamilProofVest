@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "h888pwVhIki+mV1y7vUha6edJ3KW6tpl4+2l/13EevbpoWIqCku6Joe6gEljNToR6W7SHR3cP1ZPUD54rxAZOw==",
+  "dgSpecHash": "RitDbyOU3/NrQDclhNzJKEk07596yS8JGm5uzmrQKSZhJemyN34sFhkCfZV14NEZUmPge9SRHhdpE7YqL3mPjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fisch\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\thanks\\Documents\\GitHub\\KamilProofVest\\[CODE]\\[Blazor&WebAPI]\\rightovers\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fisch\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
-    "C:\\Users\\fisch\\.nuget\\packages\\grpc.core.api\\2.49.0\\grpc.core.api.2.49.0.nupkg.sha512",
-    "C:\\Users\\fisch\\.nuget\\packages\\grpc.net.client\\2.49.0\\grpc.net.client.2.49.0.nupkg.sha512",
-    "C:\\Users\\fisch\\.nuget\\packages\\grpc.net.common\\2.49.0\\grpc.net.common.2.49.0.nupkg.sha512",
-    "C:\\Users\\fisch\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
-    "C:\\Users\\fisch\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\thanks\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
+    "C:\\Users\\thanks\\.nuget\\packages\\grpc.core.api\\2.49.0\\grpc.core.api.2.49.0.nupkg.sha512",
+    "C:\\Users\\thanks\\.nuget\\packages\\grpc.net.client\\2.49.0\\grpc.net.client.2.49.0.nupkg.sha512",
+    "C:\\Users\\thanks\\.nuget\\packages\\grpc.net.common\\2.49.0\\grpc.net.common.2.49.0.nupkg.sha512",
+    "C:\\Users\\thanks\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\thanks\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

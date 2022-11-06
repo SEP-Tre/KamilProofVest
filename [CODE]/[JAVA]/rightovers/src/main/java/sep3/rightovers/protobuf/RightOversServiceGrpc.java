@@ -45,6 +45,37 @@ public final class RightOversServiceGrpc {
     return getSaveFoodPostMethod;
   }
 
+  private static volatile io.grpc.MethodDescriptor<sep3.rightovers.protobuf.GetAllRequest,
+      sep3.rightovers.protobuf.GetAllResponse> getGetAllFoodPostsMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "getAllFoodPosts",
+      requestType = sep3.rightovers.protobuf.GetAllRequest.class,
+      responseType = sep3.rightovers.protobuf.GetAllResponse.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING)
+  public static io.grpc.MethodDescriptor<sep3.rightovers.protobuf.GetAllRequest,
+      sep3.rightovers.protobuf.GetAllResponse> getGetAllFoodPostsMethod() {
+    io.grpc.MethodDescriptor<sep3.rightovers.protobuf.GetAllRequest, sep3.rightovers.protobuf.GetAllResponse> getGetAllFoodPostsMethod;
+    if ((getGetAllFoodPostsMethod = RightOversServiceGrpc.getGetAllFoodPostsMethod) == null) {
+      synchronized (RightOversServiceGrpc.class) {
+        if ((getGetAllFoodPostsMethod = RightOversServiceGrpc.getGetAllFoodPostsMethod) == null) {
+          RightOversServiceGrpc.getGetAllFoodPostsMethod = getGetAllFoodPostsMethod =
+              io.grpc.MethodDescriptor.<sep3.rightovers.protobuf.GetAllRequest, sep3.rightovers.protobuf.GetAllResponse>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING)
+              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "getAllFoodPosts"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  sep3.rightovers.protobuf.GetAllRequest.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  sep3.rightovers.protobuf.GetAllResponse.getDefaultInstance()))
+              .setSchemaDescriptor(new RightOversServiceMethodDescriptorSupplier("getAllFoodPosts"))
+              .build();
+        }
+      }
+    }
+    return getGetAllFoodPostsMethod;
+  }
+
   /**
    * Creates a new async stub that supports all call types for the service
    */
@@ -100,6 +131,13 @@ public final class RightOversServiceGrpc {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getSaveFoodPostMethod(), responseObserver);
     }
 
+    /**
+     */
+    public void getAllFoodPosts(sep3.rightovers.protobuf.GetAllRequest request,
+        io.grpc.stub.StreamObserver<sep3.rightovers.protobuf.GetAllResponse> responseObserver) {
+      io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetAllFoodPostsMethod(), responseObserver);
+    }
+
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
@@ -109,6 +147,13 @@ public final class RightOversServiceGrpc {
                 sep3.rightovers.protobuf.FoodPostRequest,
                 sep3.rightovers.protobuf.FoodPostCreatedResponse>(
                   this, METHODID_SAVE_FOOD_POST)))
+          .addMethod(
+            getGetAllFoodPostsMethod(),
+            io.grpc.stub.ServerCalls.asyncServerStreamingCall(
+              new MethodHandlers<
+                sep3.rightovers.protobuf.GetAllRequest,
+                sep3.rightovers.protobuf.GetAllResponse>(
+                  this, METHODID_GET_ALL_FOOD_POSTS)))
           .build();
     }
   }
@@ -134,6 +179,14 @@ public final class RightOversServiceGrpc {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getSaveFoodPostMethod(), getCallOptions()), request, responseObserver);
     }
+
+    /**
+     */
+    public void getAllFoodPosts(sep3.rightovers.protobuf.GetAllRequest request,
+        io.grpc.stub.StreamObserver<sep3.rightovers.protobuf.GetAllResponse> responseObserver) {
+      io.grpc.stub.ClientCalls.asyncServerStreamingCall(
+          getChannel().newCall(getGetAllFoodPostsMethod(), getCallOptions()), request, responseObserver);
+    }
   }
 
   /**
@@ -155,6 +208,14 @@ public final class RightOversServiceGrpc {
     public sep3.rightovers.protobuf.FoodPostCreatedResponse saveFoodPost(sep3.rightovers.protobuf.FoodPostRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getSaveFoodPostMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public java.util.Iterator<sep3.rightovers.protobuf.GetAllResponse> getAllFoodPosts(
+        sep3.rightovers.protobuf.GetAllRequest request) {
+      return io.grpc.stub.ClientCalls.blockingServerStreamingCall(
+          getChannel(), getGetAllFoodPostsMethod(), getCallOptions(), request);
     }
   }
 
@@ -182,6 +243,7 @@ public final class RightOversServiceGrpc {
   }
 
   private static final int METHODID_SAVE_FOOD_POST = 0;
+  private static final int METHODID_GET_ALL_FOOD_POSTS = 1;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -203,6 +265,10 @@ public final class RightOversServiceGrpc {
         case METHODID_SAVE_FOOD_POST:
           serviceImpl.saveFoodPost((sep3.rightovers.protobuf.FoodPostRequest) request,
               (io.grpc.stub.StreamObserver<sep3.rightovers.protobuf.FoodPostCreatedResponse>) responseObserver);
+          break;
+        case METHODID_GET_ALL_FOOD_POSTS:
+          serviceImpl.getAllFoodPosts((sep3.rightovers.protobuf.GetAllRequest) request,
+              (io.grpc.stub.StreamObserver<sep3.rightovers.protobuf.GetAllResponse>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -266,6 +332,7 @@ public final class RightOversServiceGrpc {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
               .setSchemaDescriptor(new RightOversServiceFileDescriptorSupplier())
               .addMethod(getSaveFoodPostMethod())
+              .addMethod(getGetAllFoodPostsMethod())
               .build();
         }
       }

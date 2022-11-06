@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_7dc7260a79c6806e49c3f8b22caa9de8" kind="dir">
+    <compoundname>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM</compoundname>
+    <innerdir refid="dir_d8839092661e54d70fadfe79f12e29ba">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/obj</innerdir>
+    <innerdir refid="dir_ba4d74620d82d2a61f93f93c20b3d158">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/wwwroot</innerdir>
+    <innerfile refid="_blazor_w_a_s_m_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/BlazorWASM/"/>
+  </compounddef>
+</doxygen>

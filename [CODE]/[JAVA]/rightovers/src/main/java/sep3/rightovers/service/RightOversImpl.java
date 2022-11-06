@@ -4,10 +4,10 @@ import io.grpc.stub.StreamObserver;
 import org.lognet.springboot.grpc.GRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import sep3.rightovers.model.FoodPost;
-import sep3.rightovers.protobuf.FoodPostCreatedResponse;
-import sep3.rightovers.protobuf.FoodPostRequest;
-import sep3.rightovers.protobuf.RightOversServiceGrpc;
+import sep3.rightovers.protobuf.*;
 import sep3.rightovers.repository.FoodPostRepository;
+
+import java.util.ArrayList;
 
 @GRpcService
 public class RightOversImpl extends RightOversServiceGrpc.RightOversServiceImplBase {
@@ -35,5 +35,19 @@ public class RightOversImpl extends RightOversServiceGrpc.RightOversServiceImplB
         String category = request.getCategory();
         String pictureUrl = request.getPictureUrl();
         return new FoodPost(title, category,description,pictureUrl,daysUntilExpired);
+    }
+
+    @Override
+    public void getAllFoodPosts(GetAllRequest request, StreamObserver<GetAllResponse> responseObserver)
+    {
+        ArrayList<FoodPost> allPosts = (ArrayList<FoodPost>) foodPostRepository.findAll();
+        System.out.println("All posts: " + allPosts.toString());
+        for (int i = 0; i < allPosts.size(); i++)
+        {
+            GetAllResponse response = GetAllResponse.newBuilder()
+                    .setTitle(allPosts.get(i).getTitle()).setCategory(allPosts.get(i).getCategory()).build();
+            responseObserver.onNext(response);
+        };
+        responseObserver.onCompleted();
     }
 }

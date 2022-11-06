@@ -1,6 +1,7 @@
 ﻿using Application.DAOInterfaces;
 using Application.LogicInterfaces;
 using Shared.Dtos;
+using Shared.models;
 
 namespace Application.Logic;
 
@@ -18,5 +19,12 @@ public class FoodPostLogic : IFoodPostLogic
         FoodPostCreatedDto createdDto = await foodPostDaoService.CreateAsync(dto);
         Console.WriteLine(createdDto.ToString());
         return createdDto;
+    }
+
+    public async Task<IEnumerable<OverSimpleFoodPostDto>> GetAsync()
+    {
+        IEnumerable<OverSimpleFoodPostDto> allPosts = await foodPostDaoService.GetAsync();
+        Console.WriteLine(allPosts.ToString());
+        return allPosts;
     }
 }

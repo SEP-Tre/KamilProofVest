@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_a34ba339c5c5e14ea8c11589de955aeb" kind="dir">
+    <compoundname>C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients</compoundname>
+    <innerdir refid="dir_d099430fa62475e367e3e6879ba81a5e">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/ClientInterfaces</innerdir>
+    <innerdir refid="dir_a5228dd5e3dfca8ca31b2dd3121d5887">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/Implementations</innerdir>
+    <innerdir refid="dir_e7ec62c418910ce6241810f89c9beac9">C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/obj</innerdir>
+    <innerfile refid="_class1_8cs">Class1.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/HttpClients/"/>
+  </compounddef>
+</doxygen>

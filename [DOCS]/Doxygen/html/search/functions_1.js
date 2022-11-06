@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['rightoversserviceclient_0',['RightOversServiceClient',['../class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client.html#a800494ed156e72ebca67b1293a7fb9e0',1,'GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient(grpc::ChannelBase channel)'],['../class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client.html#ae07585b6af481f0c2a80183edfea5853',1,'GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient(grpc::CallInvoker callInvoker)'],['../class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client.html#a47142acfe247e900c2dfc5487400dc63',1,'GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient()'],['../class_grpc_client_1_1_right_overs_service_1_1_right_overs_service_client.html#a9147386c32563c3b1b9eedcf6f49d325',1,'GrpcClient.RightOversService.RightOversServiceClient.RightOversServiceClient(ClientBaseConfiguration configuration)']]]
+];

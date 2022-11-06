@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_food_posts_controller" kind="class" language="C#" prot="public">
+    <compoundname>FoodPostsController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_food_posts_controller_1a48fb716dd96390aec4e68642614c8a1d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_i_food_post_logic" kindref="compound">IFoodPostLogic</ref></type>
+        <definition>readonly IFoodPostLogic FoodPostsController.foodPostLogic</definition>
+        <argsstring></argsstring>
+        <name>foodPostLogic</name>
+        <qualifiedname>FoodPostsController.foodPostLogic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" line="11" column="37" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_food_posts_controller_1adb1f6297d0af728aa6fbd36120a08fac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FoodPostsController.FoodPostsController</definition>
+        <argsstring>(IFoodPostLogic foodPostLogic)</argsstring>
+        <name>FoodPostsController</name>
+        <qualifiedname>FoodPostsController.FoodPostsController</qualifiedname>
+        <param>
+          <type><ref refid="interface_i_food_post_logic" kindref="compound">IFoodPostLogic</ref></type>
+          <declname>foodPostLogic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" line="13" column="12" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_food_posts_controller_1aa46e2e874cf7323e941bf300f5b616cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="class_food_post_created_dto" kindref="compound">FoodPostCreatedDto</ref> &gt; &gt;</type>
+        <definition>async Task&lt; ActionResult&lt; FoodPostCreatedDto &gt; &gt; FoodPostsController.CreateAsync</definition>
+        <argsstring>(FoodPostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>FoodPostsController.CreateAsync</qualifiedname>
+        <param>
+          <type><ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" line="19" column="23" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" bodystart="19" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>FoodPostsController</label>
+        <link refid="class_food_posts_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>FoodPostsController</label>
+        <link refid="class_food_posts_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" line="9" column="7" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/WebAPI/Controllers/FoodPostsController.cs" bodystart="10" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_food_posts_controller_1aa46e2e874cf7323e941bf300f5b616cc" prot="public" virt="non-virtual"><scope>FoodPostsController</scope><name>CreateAsync</name></member>
+      <member refid="class_food_posts_controller_1a48fb716dd96390aec4e68642614c8a1d" prot="private" virt="non-virtual"><scope>FoodPostsController</scope><name>foodPostLogic</name></member>
+      <member refid="class_food_posts_controller_1adb1f6297d0af728aa6fbd36120a08fac" prot="public" virt="non-virtual"><scope>FoodPostsController</scope><name>FoodPostsController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

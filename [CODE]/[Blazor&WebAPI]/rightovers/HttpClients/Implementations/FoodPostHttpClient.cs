@@ -1,4 +1,5 @@
-﻿using System.Net.Http.Json;
+﻿using System.Collections;
+using System.Net.Http.Json;
 using System.Text.Json;
 using HttpClients.ClientInterfaces;
 using Shared.Dtos;
@@ -32,5 +33,20 @@ public class FoodPostHttpClient : IFoodPostWebService
         })!;
         Console.Write(createdDto);
         return createdDto;
+    }
+
+    public async Task<IEnumerable<OverSimpleFoodPostDto>> GetAsync()
+    {
+        HttpResponseMessage response = await client.GetAsync("/FoodPosts");
+        string content = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(content);
+        }
+
+        IEnumerable<OverSimpleFoodPostDto> foodPostDtos =
+            JsonSerializer.Deserialize<IEnumerable<OverSimpleFoodPostDto>>(content)!;
+
+        return foodPostDtos;
     }
 }

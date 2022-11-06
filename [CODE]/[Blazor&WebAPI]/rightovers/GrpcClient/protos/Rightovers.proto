@@ -5,6 +5,7 @@ package rightovers.grpc;
 service RightOversService
 {
 rpc saveFoodPost(FoodPostRequest) returns (FoodPostCreatedResponse);
+rpc getAllFoodPosts(GetAllRequest) returns (stream GetAllResponse);
 }
 
 message FoodPostRequest
@@ -22,4 +23,15 @@ message FoodPostCreatedResponse
 {
   bool created = 1;
   int32 idInDB = 2;
+}
+
+message GetAllRequest
+{
+  bool filler = 1;
+}
+
+message GetAllResponse
+{
+  string title = 1;
+  string category = 2;
 }

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_food_post_service" kind="class" language="C#" prot="public">
+    <compoundname>FoodPostService</compoundname>
+    <basecompoundref refid="interface_i_food_post_dao" prot="public" virt="non-virtual">IFoodPostDao</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_food_post_service_1a099199b10004eb5043161bffaefa428b" prot="private" static="yes" mutable="no">
+        <type>GrpcChannel</type>
+        <definition>GrpcChannel FoodPostService.channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <qualifiedname>FoodPostService.channel</qualifiedname>
+        <initializer>= GrpcChannel.ForAddress(&quot;http://localhost:7171&quot;, new GrpcChannelOptions
+    {
+        UnsafeUseInsecureChannelCallCredentials = true
+    })</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" line="9" column="32" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_food_post_service_1a3d4165e169ee4c15b7da6e55a5b213cd" prot="private" static="yes" mutable="no">
+        <type>RightOversService.RightOversServiceClient</type>
+        <definition>RightOversService.RightOversServiceClient FoodPostService.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>FoodPostService.client</qualifiedname>
+        <initializer>= new(channel)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" line="14" column="61" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_food_post_service_1a5b78bc936e057ff2b852b7ccfebc58d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_food_post_created_dto" kindref="compound">FoodPostCreatedDto</ref> &gt;</type>
+        <definition>async Task&lt; FoodPostCreatedDto &gt; FoodPostService.CreateAsync</definition>
+        <argsstring>(FoodPostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>FoodPostService.CreateAsync</qualifiedname>
+        <reimplements refid="interface_i_food_post_dao_1a60f467576ba3193fdc44552db720c022">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" line="16" column="23" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" bodystart="16" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FoodPostService</label>
+        <link refid="class_food_post_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFoodPostDao</label>
+        <link refid="interface_i_food_post_dao"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FoodPostService</label>
+        <link refid="class_food_post_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFoodPostDao</label>
+        <link refid="interface_i_food_post_dao"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" line="7" column="7" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/GrpcClient/DAOServices/FoodPostService.cs" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_food_post_service_1a099199b10004eb5043161bffaefa428b" prot="private" virt="non-virtual"><scope>FoodPostService</scope><name>channel</name></member>
+      <member refid="class_food_post_service_1a3d4165e169ee4c15b7da6e55a5b213cd" prot="private" virt="non-virtual"><scope>FoodPostService</scope><name>client</name></member>
+      <member refid="class_food_post_service_1a5b78bc936e057ff2b852b7ccfebc58d0" prot="public" virt="non-virtual"><scope>FoodPostService</scope><name>CreateAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

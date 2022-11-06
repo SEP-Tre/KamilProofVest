@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_tests_2_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_tests_2_program_8cs_1a64ade19d7733218f05b62f81798b2658" prot="public" static="no" mutable="no">
+        <type><ref refid="class_food_post_service" kindref="compound">FoodPostService</ref></type>
+        <definition>FoodPostService service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <initializer>= new <ref refid="class_food_post_service" kindref="compound">FoodPostService</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" line="6" column="1" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_tests_2_program_8cs_1a569a6f3404379673f6890a55d8a6b3af" prot="public" static="no" mutable="no">
+        <type><ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref></type>
+        <definition>FoodPostCreationDto dto</definition>
+        <argsstring></argsstring>
+        <name>dto</name>
+        <initializer>= new <ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref>
+{
+    title = &quot;Chicken taki masali&quot;,
+    description = &quot;mmm yummy made by kamilo&quot;,
+    daysLeftToEat = &quot;3&quot;,
+    creatorUsername = &quot;Kamilo11&quot;,
+    category = &quot;chicken, indian&quot;,
+    pictureUrl = &quot;&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" line="7" column="21" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_tests_2_program_8cs_1a68e33d7d984cd5e38db2162b79724c48" prot="public" static="no" mutable="no">
+        <type><ref refid="class_food_post_created_dto" kindref="compound">FoodPostCreatedDto</ref></type>
+        <definition>FoodPostCreatedDto createdDto</definition>
+        <argsstring></argsstring>
+        <name>createdDto</name>
+        <initializer>= await service.CreateAsync(dto)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" line="16" column="20" bodyfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_tests_2_program_8cs_1ac5b121c119655db93ecfc4d4b36c11a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Console.</type>
+        <definition>Console. Write</definition>
+        <argsstring>(createdDto.ToString())</argsstring>
+        <name>Write</name>
+        <param>
+          <type>createdDto.</type>
+          <declname>ToString</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" line="17" column="8" declfile="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs" declline="17" declcolumn="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>See<sp/>https://aka.ms/new-console-template<sp/>for<sp/>more<sp/>information</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">GrpcClient.DAOServices;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Shared.Dtos;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="class_food_post_service" kindref="compound">FoodPostService</ref><sp/>service<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_food_post_service" kindref="compound">FoodPostService</ref>();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref><sp/>dto<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_food_post_creation_dto" kindref="compound">FoodPostCreationDto</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>title<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Chicken<sp/>taki<sp/>masali&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>description<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;mmm<sp/>yummy<sp/>made<sp/>by<sp/>kamilo&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>daysLeftToEat<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;3&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>creatorUsername<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Kamilo11&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;chicken,<sp/>indian&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>pictureUrl<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="class_food_post_created_dto" kindref="compound">FoodPostCreatedDto</ref><sp/>createdDto<sp/>=<sp/>await<sp/>service.CreateAsync(dto);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">Console.Write(createdDto.ToString());</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/thanks/Documents/GitHub/KamilProofVest/[CODE]/[Blazor&amp;WebAPI]/rightovers/Tests/Program.cs"/>
+  </compounddef>
+</doxygen>
