@@ -41,7 +41,7 @@ public class RightOversImpl extends RightOversServiceGrpc.RightOversServiceImplB
     public void getAllFoodPosts(GetAllRequest request, StreamObserver<GetAllResponse> responseObserver)
     {
         ArrayList<FoodPost> allPosts = (ArrayList<FoodPost>) foodPostRepository.findAll();
-        System.out.println("All posts: " + allPosts.toString());
+        // System.out.println("All posts: " + allPosts.toString());
         for (int i = 0; i < allPosts.size(); i++)
         {
             GetAllResponse response = GetAllResponse.newBuilder()

@@ -21,10 +21,10 @@ else
 {
     <table class="table">
         <thead>
-        <tr>
-            <th>Title</th>
-            <th>Category</th>
-        </tr>
+            <tr>
+                <th>Title</th>
+                <th>Category</th>
+            </tr>
         </thead>
         <tbody>
         @foreach (var item in posts)
@@ -43,7 +43,7 @@ else
 }
 
 @code {
-    private IEnumerable<OverSimpleFoodPostDto>? posts;
+    private ICollection<OverSimpleFoodPostDto>? posts;
     private string msg = "";
 
     private async Task LoadFoodPosts()

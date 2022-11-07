@@ -20,6 +20,7 @@ public class FoodPostHttpClient : IFoodPostWebService
         Console.Write(dto);
         
         HttpResponseMessage response = await client.PostAsJsonAsync("/FoodPosts", dto);
+        Console.Write("Response: " + response);
         string result = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
@@ -35,17 +36,28 @@ public class FoodPostHttpClient : IFoodPostWebService
         return createdDto;
     }
 
-    public async Task<IEnumerable<OverSimpleFoodPostDto>> GetAsync()
+    public async Task<ICollection<OverSimpleFoodPostDto>> GetAsync()
     {
         HttpResponseMessage response = await client.GetAsync("/FoodPosts");
+        // Console.Write("API: " + response);
         string content = await response.Content.ReadAsStringAsync();
+        // Console.Write("Content: " + content);
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(content);
         }
 
-        IEnumerable<OverSimpleFoodPostDto> foodPostDtos =
-            JsonSerializer.Deserialize<IEnumerable<OverSimpleFoodPostDto>>(content)!;
+        ICollection<OverSimpleFoodPostDto> foodPostDtos =
+            JsonSerializer.Deserialize<ICollection<OverSimpleFoodPostDto>>(content, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            })!;
+        /*
+        foreach (var item in foodPostDtos)
+        {
+            Console.Write("Post: " + item.Title + ": " + item.Category);
+        }
+        */
 
         return foodPostDtos;
     }
